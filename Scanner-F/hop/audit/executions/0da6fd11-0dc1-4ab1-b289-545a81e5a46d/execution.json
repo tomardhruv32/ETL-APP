@@ -1,0 +1,16 @@
+{
+  "name" : "Delay row",
+  "filename" : null,
+  "id" : "0da6fd11-0dc1-4ab1-b289-545a81e5a46d",
+  "parentId" : "c2c19538-78af-4a5a-b24e-49e4c82423c5",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1789791816654,
+  "executionStartDate" : 1789791816358,
+  "copyNr" : "0"
+}

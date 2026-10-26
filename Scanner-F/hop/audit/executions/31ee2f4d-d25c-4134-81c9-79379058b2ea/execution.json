@@ -1,0 +1,16 @@
+{
+  "name" : "Yesterday date and year date",
+  "filename" : null,
+  "id" : "31ee2f4d-d25c-4134-81c9-79379058b2ea",
+  "parentId" : "d7f57cc9-7831-446b-9681-9664e8f3ffd1",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1789732092122,
+  "executionStartDate" : 1789732091848,
+  "copyNr" : "0"
+}

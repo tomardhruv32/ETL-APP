@@ -1,0 +1,17 @@
+{
+  "executionType" : "Workflow",
+  "parentId" : null,
+  "id" : "9f72d2bc-fdbb-431f-87a8-6b57c2871b61",
+  "name" : "workflow",
+  "copyNr" : null,
+  "loggingText" : "2026/09/18 17:21:39 - workflow - Start of workflow execution\r\n2026/09/18 17:21:39 - workflow - Starting action [Start]\r\n2026/09/18 17:21:39 - workflow - Finished action [Start] (result=[true])\r\n2026/09/18 17:21:39 - workflow - Starting action [Shell]\r\n2026/09/18 17:21:39 - Shell - Running on platform : Windows 11\r\n2026/09/18 17:21:39 - Shell - Executing command : cmd.exe /C \"C:\\Users\\DHRUV~1.TOM\\AppData\\Local\\Temp\\hop_6bab597a-735a-4943-b4d4-87a491dbde0bshell.bat\"\r\n2026/09/18 17:21:39 - Shell - (stdout) \r\n2026/09/18 17:21:39 - Shell - (stdout) C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\hop>\"C:\\Users\\dhruv.tomar\\OneDrive\\Documents\\Scanner\\Test_Breakout.py\"\r\n2026/09/18 17:21:48 - Shell - (stdout) \r\n2026/09/18 17:21:48 - Shell - (stdout) C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\hop>\"C:\\Users\\dhruv.tomar\\OneDrive\\Documents\\Scanner\\Test_momentum.py\"\r\n2026/09/18 17:21:53 - Shell - (stdout) \r\n2026/09/18 17:21:53 - Shell - (stdout) C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\hop>\"C:\\Users\\dhruv.tomar\\OneDrive\\Documents\\Scanner\\Test_Pullback.py\"\r\n2026/09/18 17:21:56 - Shell - (stdout) \r\n2026/09/18 17:21:56 - Shell - (stdout) C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\hop>\"C:\\Users\\dhruv.tomar\\OneDrive\\Documents\\Scanner\\Test_Trend.py\"\r\n2026/09/18 17:22:00 - Shell - (stdout) \r\n2026/09/18 17:22:00 - Shell - (stdout) C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\hop>\"C:\\Users\\dhruv.tomar\\OneDrive\\Documents\\Scanner\\Test_volume_Breakout.py\"\r\n2026/09/18 17:21:39 - workflow - Start of workflow execution\r\n2026/09/18 17:21:39 - workflow - Starting action [Start]\r\n2026/09/18 17:21:39 - workflow - Finished action [Start] (result=[true])\r\n2026/09/18 17:21:39 - workflow - Starting action [Shell]\r\n2026/09/18 17:21:39 - Shell - Running on platform : Windows 11\r\n2026/09/18 17:21:39 - Shell - Executing command : cmd.exe /C \"C:\\Users\\DHRUV~1.TOM\\AppData\\Local\\Temp\\hop_6bab597a-735a-4943-b4d4-87a491dbde0bshell.bat\"\r\n2026/09/18 17:21:39 - Shell - (stdout) \r\n2026/09/18 17:21:39 - Shell - (stdout) C:\\Users\\dh",
+  "lastLogLineNr" : 146,
+  "metrics" : [ ],
+  "statusDescription" : "Finished (with errors)",
+  "updateTime" : 1789732325259,
+  "childIds" : [ "65eb2e70-be8f-4f71-ab1a-9dc862914bb2", "14962241-314f-49ea-a976-1b03cf8a9881", "740c87f7-3650-4b90-92b3-e979ddc678cf" ],
+  "details" : { },
+  "failed" : true,
+  "executionEndDate" : 1789732325258,
+  "containerId" : null
+}

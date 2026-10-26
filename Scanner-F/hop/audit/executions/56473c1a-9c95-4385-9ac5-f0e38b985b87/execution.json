@@ -1,0 +1,16 @@
+{
+  "name" : "momentum_results.csv",
+  "filename" : null,
+  "id" : "56473c1a-9c95-4385-9ac5-f0e38b985b87",
+  "parentId" : "44e589d5-e82e-423b-9dfe-6445110e7d4e",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1789795057269,
+  "executionStartDate" : 1789795057165,
+  "copyNr" : "0"
+}

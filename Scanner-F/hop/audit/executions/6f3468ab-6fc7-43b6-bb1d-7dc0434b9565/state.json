@@ -1,0 +1,353 @@
+{
+  "executionType" : "Pipeline",
+  "parentId" : "740c87f7-3650-4b90-92b3-e979ddc678cf",
+  "id" : "6f3468ab-6fc7-43b6-bb1d-7dc0434b9565",
+  "name" : "supabase",
+  "copyNr" : null,
+  "loggingText" : "2026/09/18 17:22:03 - supabase - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\r\n2026/09/18 17:22:03 - supabase - Execution started for pipeline [supabase]\r\n2026/09/18 17:22:04 - breakout.csv.0 - Opening file: file:///C:/Users/dhruv.tomar/OneDrive/Documents/Scanner/breakout_results.csv\r\n2026/09/18 17:22:04 - momentum_results.csv.0 - Opening file: file:///C:/Users/dhruv.tomar/OneDrive/Documents/Scanner/momentum_results.csv\r\n2026/09/18 17:22:04 - trend_results.csv.0 - Opening file: file:///C:/Users/dhruv.tomar/OneDrive/Documents/Scanner/trend_results.csv\r\n2026/09/18 17:22:04 - volume_breakout_results.csv.0 - Opening file: file:///C:/Users/dhruv.tomar/OneDrive/Documents/Scanner/volume_breakout_results.csv\r\n2026/09/18 17:22:04 - momentum_results.csv.0 - Finished processing (I=100, O=0, R=0, W=99, U=1, E=0)\r\n2026/09/18 17:22:04 - Calculator 2.0 - Finished processing (I=0, O=0, R=99, W=99, U=0, E=0)\r\n2026/09/18 17:22:04 - breakout.csv.0 - Finished processing (I=29, O=0, R=0, W=28, U=1, E=0)\r\n2026/09/18 17:22:04 - Get system info 2.0 - Finished processing (I=0, O=0, R=99, W=99, U=0, E=0)\r\n2026/09/18 17:22:04 - Calculator.0 - Finished processing (I=0, O=0, R=28, W=28, U=0, E=0)\r\n2026/09/18 17:22:04 - Get system info.0 - Finished processing (I=0, O=0, R=28, W=28, U=0, E=0)\r\n2026/09/18 17:22:04 - Select values 2.0 - Finished processing (I=0, O=0, R=99, W=99, U=0, E=0)\r\n2026/09/18 17:22:04 - Select values.0 - Finished processing (I=0, O=0, R=28, W=28, U=0, E=0)\r\n2026/09/18 17:22:04 - PostgreSQL bulk loader.0 - ERROR: Error in transform\r\n2026/09/18 17:22:04 - PostgreSQL bulk loader.0 - java.lang.NullPointerException: Cannot invoke \"org.apache.hop.core.database.DatabaseMeta.getName()\" because \"this.databaseMeta\" is null\r\n2026/09/18 17:22:04 - PostgreSQL bulk loader.0 - \tat org.apache.hop.core.database.Database.getObjectName(Database.java:4998)\r\n2026/09/18 17:22:04 - PostgreSQL bulk loader.0 - \tat org.apache.hop.core.logging.LoggingObject.g",
+  "lastLogLineNr" : 142,
+  "metrics" : [ {
+    "componentName" : "breakout.csv",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 193,
+      "Input" : 29,
+      "Written" : 28,
+      "Updated" : 1,
+      "Output" : 0,
+      "Duration" : 150,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Calculator",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 28,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 123,
+      "Input" : 0,
+      "Written" : 28,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 228,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Get system info",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 28,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 122,
+      "Input" : 0,
+      "Written" : 28,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 229,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select values",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 28,
+      "Buffers Output" : 28,
+      "Errors" : 0,
+      "Speed" : 113,
+      "Input" : 0,
+      "Written" : 28,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 247,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "momentum_results.csv",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 685,
+      "Input" : 100,
+      "Written" : 99,
+      "Updated" : 1,
+      "Output" : 0,
+      "Duration" : 146,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Calculator 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 99,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 669,
+      "Input" : 0,
+      "Written" : 99,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 148,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Get system info 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 99,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 656,
+      "Input" : 0,
+      "Written" : 99,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 151,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select values 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 99,
+      "Buffers Output" : 98,
+      "Errors" : 0,
+      "Speed" : 411,
+      "Input" : 0,
+      "Written" : 99,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 241,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "pullback_results.csv",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 0,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 16,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Calculator 2 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 0,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 25,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Get system info 2 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 0,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 29,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select values 2 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 0,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 34,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "trend_results.csv",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 773,
+      "Input" : 194,
+      "Written" : 193,
+      "Updated" : 1,
+      "Output" : 0,
+      "Duration" : 251,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Calculator 2 2 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 193,
+      "Buffers Output" : 100,
+      "Errors" : 0,
+      "Speed" : 754,
+      "Input" : 0,
+      "Written" : 193,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 256,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Get system info 2 2 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 93,
+      "Buffers Output" : 74,
+      "Errors" : 0,
+      "Speed" : 368,
+      "Input" : 0,
+      "Written" : 93,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 253,
+      "Rejected" : 0,
+      "Buffers Input" : 100
+    }
+  }, {
+    "componentName" : "Select values 2 2 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 19,
+      "Buffers Output" : 19,
+      "Errors" : 0,
+      "Speed" : 74,
+      "Input" : 0,
+      "Written" : 19,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 258,
+      "Rejected" : 0,
+      "Buffers Input" : 74
+    }
+  }, {
+    "componentName" : "volume_breakout_results.csv",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 4,
+      "Input" : 1,
+      "Written" : 0,
+      "Updated" : 1,
+      "Output" : 0,
+      "Duration" : 258,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Calculator 2 2 2 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 0,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 162,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Get system info 2 2 2 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 0,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 159,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select values 2 2 2 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 0,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 149,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "PostgreSQL bulk loader",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 1,
+      "Buffers Output" : 0,
+      "Errors" : 1,
+      "Speed" : 4,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 251,
+      "Rejected" : 0,
+      "Buffers Input" : 145
+    }
+  } ],
+  "statusDescription" : "Finished (with errors)",
+  "updateTime" : 1789732324908,
+  "childIds" : [ "b85c7af2-a114-4e66-9b58-004145913716", "acef4cac-57f3-46ae-a008-c618fcc5022a", "8f30cca1-f34b-47be-b53a-8133b491625d", "25bf67b4-ee19-40f9-9954-00b6d9e0c712", "fda923ab-6d60-453f-b587-08bf9bc6a01a", "fb16551c-7487-4fda-84b7-f982586f8d7d", "c3aea104-88b8-40ce-9568-954bb6f8d66c", "5b04b73e-bf2e-471a-84c0-2ca497ee680f", "a073cc95-35f5-4f7a-994a-a710bd2cd5f2", "41d20e32-73ba-4153-a0be-27b18e8873ea", "12cc3731-0ae5-4ba1-8103-9e28381a3b09", "728762a4-b5d1-4025-a50e-da16c80c3d9e", "6ea99c68-266f-42ff-9b55-554d8369f7ce", "21d22e01-3334-4c5c-8aab-75a7963640cd", "496b1968-1927-4d5b-bc34-d99a8e1e8ea0", "84e994c9-aee3-4610-aa9b-0d026255221a", "b8f2138d-e73e-4170-93d6-53680ddb0bec", "0baefa73-79e4-481a-814a-fda08975b9ba", "20e8c7e5-0063-4625-9f5b-6c974a9e3930", "7da133ae-7bed-4bf8-bdf0-f3ffeffed71a", "c5c5fe19-3b87-4bac-abd1-5a638e2c7b68" ],
+  "details" : { },
+  "failed" : true,
+  "executionEndDate" : 1789732324907,
+  "containerId" : null
+}

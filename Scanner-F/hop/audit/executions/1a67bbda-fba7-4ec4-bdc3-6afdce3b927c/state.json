@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "d7f57cc9-7831-446b-9681-9664e8f3ffd1",
+  "id" : "1a67bbda-fba7-4ec4-bdc3-6afdce3b927c",
+  "name" : "JSON input",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Stopped",
+  "updateTime" : 1789732103340,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1789732102755,
+  "containerId" : null
+}

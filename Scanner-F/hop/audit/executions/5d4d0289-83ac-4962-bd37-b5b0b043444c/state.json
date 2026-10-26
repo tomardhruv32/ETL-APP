@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "f5d4527a-8976-42e7-9d05-16dbab49c122",
+  "id" : "5d4d0289-83ac-4962-bd37-b5b0b043444c",
+  "name" : "PostgreSQL bulk loader",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Stopped",
+  "updateTime" : 1789794627333,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : true,
+  "executionEndDate" : 1789794627192,
+  "containerId" : null
+}

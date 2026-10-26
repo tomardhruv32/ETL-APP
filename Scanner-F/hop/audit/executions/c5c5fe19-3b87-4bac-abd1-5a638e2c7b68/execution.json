@@ -1,0 +1,16 @@
+{
+  "name" : "PostgreSQL bulk loader",
+  "filename" : null,
+  "id" : "c5c5fe19-3b87-4bac-abd1-5a638e2c7b68",
+  "parentId" : "6f3468ab-6fc7-43b6-bb1d-7dc0434b9565",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1789732324581,
+  "executionStartDate" : 1789732323917,
+  "copyNr" : "0"
+}

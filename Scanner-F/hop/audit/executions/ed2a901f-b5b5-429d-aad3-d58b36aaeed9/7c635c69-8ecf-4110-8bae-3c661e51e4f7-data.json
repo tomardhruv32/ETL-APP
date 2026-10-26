@@ -1,0 +1,28 @@
+{
+  "executionType" : "Action",
+  "dataSetMeta" : {
+    "setKey" : "7c635c69-8ecf-4110-8bae-3c661e51e4f7",
+    "logChannelId" : "7c635c69-8ecf-4110-8bae-3c661e51e4f7",
+    "name" : "ohlcv.hpl",
+    "fieldName" : null,
+    "sampleDescription" : null,
+    "copyNr" : "1",
+    "description" : "action"
+  },
+  "finished" : true,
+  "collectionDate" : 1789727905755,
+  "parentId" : "ed2a901f-b5b5-429d-aad3-d58b36aaeed9",
+  "ownerId" : "7c635c69-8ecf-4110-8bae-3c661e51e4f7",
+  "setMetaData" : {
+    "result" : {
+      "setKey" : "result",
+      "logChannelId" : "7c635c69-8ecf-4110-8bae-3c661e51e4f7",
+      "name" : "ohlcv.hpl",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "1",
+      "description" : "Result details of action"
+    }
+  },
+  "rowsBinaryGzipBase64Encoded" : "H4sIAAAAAAAA/2NgYGBkYCtKLS7NKWFgYGCCYhBgzk6t/I8FAKUY9UCEDohQgapmYE3N0w0NZmRgQBKIDw0GMngdizMT9Z0Tc5JLS0oSGZCsYC1LzClNpZElzCCCHeI1e7DatMSc4lQQiy21qCi/qBjEZDQEkRzFJfkFBakpSOoAdSW02RoBAAA="
+}

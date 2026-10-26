@@ -1,0 +1,37 @@
+{
+  "executionType" : "Action",
+  "dataSetMeta" : {
+    "setKey" : "a1341964-fc49-4150-896d-077ab5621135",
+    "logChannelId" : "a1341964-fc49-4150-896d-077ab5621135",
+    "name" : "ohlcv.hpl",
+    "fieldName" : null,
+    "sampleDescription" : null,
+    "copyNr" : "1",
+    "description" : "action"
+  },
+  "finished" : true,
+  "collectionDate" : 1789731073270,
+  "parentId" : "6b3935f5-7f85-4356-a395-19b1360906e4",
+  "ownerId" : "a1341964-fc49-4150-896d-077ab5621135",
+  "setMetaData" : {
+    "result" : {
+      "setKey" : "result",
+      "logChannelId" : "a1341964-fc49-4150-896d-077ab5621135",
+      "name" : "ohlcv.hpl",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "1",
+      "description" : "Result details of action"
+    },
+    "files" : {
+      "setKey" : "files",
+      "logChannelId" : "a1341964-fc49-4150-896d-077ab5621135",
+      "name" : "ohlcv.hpl",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "1",
+      "description" : "Result files of action"
+    }
+  },
+  "rowsBinaryGzipBase64Encoded" : "H4sIAAAAAAAA/7VRsU7DMBB1aBO6IPEJHRghZu5SVa3EyBAyI8s9qFXHju7OFv16yKWt1IE1J/n56fnp3tlWSt2pCoGSZyX8vKRmRzj9/lPDUVELPAs8XdyqhPDSNoVSN8Jn2wzkYUPO6K3xNjEbdRNRZuMTTBQyE7g/X20tfM6YQEgFiBFJaPEquCCOfQ/70VZ+GU8wbM4DXfpcB16IGEw31czXnDmf+qkzqoju24WJUkbXRp5rpbXernRLgKT3B0y55tgZ1O8Bdugy6F20qYPApBtrQgDU8eBtri3l8Q/fYNCMF/74AT+8lLbLmLhP/AdpTpNrwQIAAA=="
+}

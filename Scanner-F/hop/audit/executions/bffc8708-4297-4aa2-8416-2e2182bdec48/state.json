@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "89d64bf6-ac94-4f00-85b4-eb3c2f624283",
+  "id" : "bffc8708-4297-4aa2-8416-2e2182bdec48",
+  "name" : "Concat fields",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Stopped",
+  "updateTime" : 1792393619349,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1792393596456,
+  "containerId" : "deb1a3c3-c5cc-4b5b-836d-b67fbeb1cf78"
+}

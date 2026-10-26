@@ -1,0 +1,16 @@
+{
+  "name" : "Remove Time from date - yyyy-MM-dd",
+  "filename" : null,
+  "id" : "f99cbbbc-b8dd-4c45-a25c-347144e28cb2",
+  "parentId" : "89d64bf6-ac94-4f00-85b4-eb3c2f624283",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1792393592752,
+  "executionStartDate" : 1792393592684,
+  "copyNr" : "0"
+}

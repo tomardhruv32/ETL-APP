@@ -1,0 +1,16 @@
+{
+  "name" : "Calculator 2 2",
+  "filename" : null,
+  "id" : "f79f6123-60c8-48ac-9f40-b01055001c6d",
+  "parentId" : "52cecf30-4f99-4688-8dcf-cc99d8d2f735",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1792400694317,
+  "executionStartDate" : 1792400694078,
+  "copyNr" : "0"
+}

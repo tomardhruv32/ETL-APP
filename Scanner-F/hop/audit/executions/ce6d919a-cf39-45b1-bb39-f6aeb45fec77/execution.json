@@ -1,0 +1,16 @@
+{
+  "name" : "Get current date",
+  "filename" : null,
+  "id" : "ce6d919a-cf39-45b1-bb39-f6aeb45fec77",
+  "parentId" : "89d64bf6-ac94-4f00-85b4-eb3c2f624283",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1792393592743,
+  "executionStartDate" : 1792393592684,
+  "copyNr" : "0"
+}

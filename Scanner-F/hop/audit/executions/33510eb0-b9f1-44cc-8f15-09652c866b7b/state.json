@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "d3b03750-2be3-473c-8715-613453934e5c",
+  "id" : "33510eb0-b9f1-44cc-8f15-09652c866b7b",
+  "name" : "Add constants",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Finished",
+  "updateTime" : 1789731072883,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1789728412589,
+  "containerId" : null
+}

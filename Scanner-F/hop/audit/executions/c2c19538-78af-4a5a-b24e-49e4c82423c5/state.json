@@ -1,0 +1,338 @@
+{
+  "executionType" : "Pipeline",
+  "parentId" : "5ac897ac-9baf-41bf-a918-ea8f9e715235",
+  "id" : "c2c19538-78af-4a5a-b24e-49e4c82423c5",
+  "name" : "ohlcv",
+  "copyNr" : null,
+  "loggingText" : "2026/09/19 09:53:36 - ohlcv - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\r\n2026/09/19 09:53:36 - ohlcv - Execution started for pipeline [ohlcv]\r\n2026/09/19 09:53:36 - HTTP client.0 - Starting to run...\r\n2026/09/19 09:53:36 - ohlcv - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\r\n2026/09/19 09:53:36 - ohlcv - Execution started for pipeline [ohlcv]\r\n2026/09/19 09:53:36 - HTTP client.0 - Starting to run...\r\n2026/09/19 09:53:39 - Upstox Instrument Json list.0 - Finished processing (I=75783, O=0, R=0, W=75783, U=0, E=0)\r\n2026/09/19 09:53:39 - Instrument_key, name,segent, instrument_type.0 - Finished processing (I=0, O=0, R=75783, W=75783, U=0, E=0)\r\n2026/09/19 09:53:39 - EQ & NSE EQ.0 - Finished processing (I=0, O=0, R=75783, W=2639, U=0, E=0)\r\n2026/09/19 09:53:39 - Remove Duplicates.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)\r\n2026/09/19 09:53:39 - Get current date.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)\r\n2026/09/19 09:53:39 - Constant 1 and 365.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)\r\n2026/09/19 09:53:39 - Remove Time from date - yyyy-MM-dd.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)\r\n2026/09/19 09:53:40 - Yesterday date and year date.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)\r\n2026/09/19 09:53:40 - Remove Time from dates.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)\r\n2026/09/19 09:53:40 - Only show Instrument key, name,from and to date.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)\r\n2026/09/19 09:53:40 - Add constants.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)\r\n2026/09/19 09:53:40 - Concat fields.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)\r\n2026/09/19 09:53:40 - Replace in string.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)\r\n2026/09/19 09:53:41 - HTTP client.0 - Connecting to : [https://api.upstox.com/v3/historical",
+  "lastLogLineNr" : 13228,
+  "metrics" : [ {
+    "componentName" : "Upstox Instrument Json list",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 24855,
+      "Input" : 75783,
+      "Written" : 75783,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 3049,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Instrument_key, name,segent, instrument_type",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 75783,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 24839,
+      "Input" : 0,
+      "Written" : 75783,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 3051,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "EQ & NSE EQ",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 75783,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 24782,
+      "Input" : 0,
+      "Written" : 2639,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 3058,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Remove Duplicates",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2639,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 862,
+      "Input" : 0,
+      "Written" : 2639,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 3063,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Get current date",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2639,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 860,
+      "Input" : 0,
+      "Written" : 2639,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 3069,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Constant 1 and 365",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2639,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 858,
+      "Input" : 0,
+      "Written" : 2639,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 3074,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Remove Time from date - yyyy-MM-dd",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2639,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 858,
+      "Input" : 0,
+      "Written" : 2639,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 3077,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Yesterday date and year date",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2639,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 797,
+      "Input" : 0,
+      "Written" : 2639,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 3312,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Remove Time from dates",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2639,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 796,
+      "Input" : 0,
+      "Written" : 2639,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 3317,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Only show Instrument key, name,from and to date",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2639,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 794,
+      "Input" : 0,
+      "Written" : 2639,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 3324,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Add constants",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2639,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 793,
+      "Input" : 0,
+      "Written" : 2639,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 3329,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Concat fields",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2639,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 791,
+      "Input" : 0,
+      "Written" : 2639,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 3335,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Replace in string",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2639,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 790,
+      "Input" : 0,
+      "Written" : 2639,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 3340,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "HTTP client",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2639,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 1,
+      "Input" : 0,
+      "Written" : 2639,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 2646973,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "JSON input",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2639,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 220,
+      "Input" : 583517,
+      "Written" : 583517,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 2646979,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select values",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 583517,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 220,
+      "Input" : 0,
+      "Written" : 583517,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 2646985,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Calculator",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 583517,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 220,
+      "Input" : 0,
+      "Written" : 583517,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 2646989,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Text file output",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 583517,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 220,
+      "Input" : 0,
+      "Written" : 583517,
+      "Updated" : 0,
+      "Output" : 583518,
+      "Data volume out" : 79298213,
+      "Duration" : 2647006,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Delay row",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2639,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 1,
+      "Input" : 0,
+      "Written" : 2639,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 2646801,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "limit 1 instrument only",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 0,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 15,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  } ],
+  "statusDescription" : "Finished",
+  "updateTime" : 1789794463782,
+  "childIds" : [ "b0ebccfa-10aa-4ed4-afc9-76147b2bba51", "51cbeeb3-34af-412b-bebc-0563ef3a2554", "b2b813fa-8430-4942-b873-272a0b75f3e8", "89ea88ed-5259-43a9-9924-3d8c967c8a31", "ba3f2445-a04f-47ca-be70-2b92f91b59ec", "adf388ae-346d-40ad-894c-04ad38b85aea", "763ea082-f295-460b-bc6c-1bffb9b4edaf", "33d7dcb0-33bd-4321-8197-d77f01bfbf8c", "d866542f-fb20-42ea-8167-c32f5fb59c39", "eb2db4ae-3f24-4791-a30e-ac895281d604", "cac22532-8479-46d7-9ecd-2695ec78100b", "8ffe28ca-1ec1-4521-b0f6-1200612f3267", "8315e0b6-f546-4b93-9bef-c7d0815269b0", "985521d2-e2ab-4db9-9a37-efc48911bc11", "00f0975f-1b7e-4420-9a03-0b2f35258b20", "b8a46637-a8eb-4c35-b60a-8d1359e3aed3", "795bc444-6231-4c0e-9f46-f571cdeb077c", "5d0fe5e3-c66d-4ea3-941e-f5f3ce13c121", "0da6fd11-0dc1-4ab1-b289-545a81e5a46d", "40d69df6-fe04-483f-b0e3-ee9ba94ef04c" ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1789794463778,
+  "containerId" : null
+}

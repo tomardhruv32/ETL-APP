@@ -1,0 +1,16 @@
+{
+  "name" : "supabase.hpl",
+  "filename" : null,
+  "id" : "740c87f7-3650-4b90-92b3-e979ddc678cf",
+  "parentId" : "9f72d2bc-fdbb-431f-87a8-6b57c2871b61",
+  "executionType" : "Action",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1789732323824,
+  "executionStartDate" : 1789732323824,
+  "copyNr" : null
+}

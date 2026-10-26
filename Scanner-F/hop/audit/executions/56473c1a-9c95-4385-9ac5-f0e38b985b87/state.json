@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "44e589d5-e82e-423b-9dfe-6445110e7d4e",
+  "id" : "56473c1a-9c95-4385-9ac5-f0e38b985b87",
+  "name" : "momentum_results.csv",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Finished",
+  "updateTime" : 1789795058676,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1789795057484,
+  "containerId" : "c6e3a39b-0aec-4121-9f9d-2a3545e250fd"
+}

@@ -1,0 +1,16 @@
+{
+  "name" : "JSON input",
+  "filename" : null,
+  "id" : "27e55031-3a44-4bb7-bd7a-534e94d99927",
+  "parentId" : "8b0b87a0-4b6e-4f80-9038-1fd26ea3f268",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1792393391841,
+  "executionStartDate" : 1792393391537,
+  "copyNr" : "0"
+}

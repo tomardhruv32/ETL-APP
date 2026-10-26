@@ -1,0 +1,37 @@
+{
+  "executionType" : "Action",
+  "dataSetMeta" : {
+    "setKey" : "90a777b0-e6e8-46ae-8750-177421f82b4a",
+    "logChannelId" : "90a777b0-e6e8-46ae-8750-177421f82b4a",
+    "name" : "Shell",
+    "fieldName" : null,
+    "sampleDescription" : null,
+    "copyNr" : "2",
+    "description" : "action"
+  },
+  "finished" : true,
+  "collectionDate" : 1789731074111,
+  "parentId" : "6b3935f5-7f85-4356-a395-19b1360906e4",
+  "ownerId" : "90a777b0-e6e8-46ae-8750-177421f82b4a",
+  "setMetaData" : {
+    "result" : {
+      "setKey" : "result",
+      "logChannelId" : "90a777b0-e6e8-46ae-8750-177421f82b4a",
+      "name" : "Shell",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "2",
+      "description" : "Result details of action"
+    },
+    "files" : {
+      "setKey" : "files",
+      "logChannelId" : "90a777b0-e6e8-46ae-8750-177421f82b4a",
+      "name" : "Shell",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "2",
+      "description" : "Result files of action"
+    }
+  },
+  "rowsBinaryGzipBase64Encoded" : "H4sIAAAAAAAA/7VRsU7DMBB1KAldkPiEDoyQE2sXVLUSI0PIjCz3Si0cO7qzLfr1kEtbKQNrTvLT0/PTvTtbKXWjKkJOLirh5yO1+MbT7z81XBW1wJPA48WtSvTPbVMoNRE+22Yg9xu2GrbamRSjVpOIMmuXcKaQhcDdebXX0XvQjlFYhUSBWGjxIrjkGPoe91NfebAO+dLoOvFSRK+7uYa+5tzGUz93RhXIflk/U8ro2shzrQFgu4aWkRj2R0q5jqHTBO8ed2Qzwi6Y1KGPDI3R3iNBODqTa8N5/MQ3HDTthD984E9cSdtVSLFP8Q+YpgqLwgIAAA=="
+}

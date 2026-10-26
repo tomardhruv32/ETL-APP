@@ -1,0 +1,28 @@
+{
+  "executionType" : "Action",
+  "dataSetMeta" : {
+    "setKey" : "26fc6ee7-654a-416d-8db3-7251f66e3d43",
+    "logChannelId" : "26fc6ee7-654a-416d-8db3-7251f66e3d43",
+    "name" : "Start",
+    "fieldName" : null,
+    "sampleDescription" : null,
+    "copyNr" : "0",
+    "description" : "action"
+  },
+  "finished" : true,
+  "collectionDate" : 1789732731921,
+  "parentId" : "45660730-e2ea-4773-821f-e69f87289193",
+  "ownerId" : "26fc6ee7-654a-416d-8db3-7251f66e3d43",
+  "setMetaData" : {
+    "result" : {
+      "setKey" : "result",
+      "logChannelId" : "26fc6ee7-654a-416d-8db3-7251f66e3d43",
+      "name" : "Start",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Result details of action"
+    }
+  },
+  "rowsBinaryGzipBase64Encoded" : "H4sIAAAAAAAA/2NgYGBkYCtKLS7NKWFgYGCCYhBgzk6t/I8FAKUY9UCEDohQgapmYE3N0w0NZmRgQBKIDw0GMngdizMT9Z0Tc5JLS0oSGZCsYC1LzClNpZElzCCCHeI1exCbpaSoNBXEYEstKsovKgYxGQ1AJEdxSX5BQWoKWBlrWmJOcSoAcqCnMhkBAAA="
+}

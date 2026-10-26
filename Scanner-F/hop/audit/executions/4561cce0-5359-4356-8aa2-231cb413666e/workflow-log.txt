@@ -1,0 +1,27 @@
+2026/09/18 17:27:15 - workflow - Start of workflow execution
+2026/09/18 17:27:15 - workflow - Starting action [Start]
+2026/09/18 17:27:15 - workflow - Finished action [Start] (result=[true])
+2026/09/18 17:27:15 - workflow - Starting action [Shell]
+2026/09/18 17:27:15 - Shell - Running on platform : Windows 11
+2026/09/18 17:27:15 - Shell - Executing command : cmd.exe /C "C:\Users\DHRUV~1.TOM\AppData\Local\Temp\hop_c22efd06-472b-47e8-b7f4-4aeee5bcd10bshell.bat"
+2026/09/18 17:27:15 - Shell - (stdout) 
+2026/09/18 17:27:15 - Shell - (stdout) C:\Users\dhruv.tomar\Documents\Scanner-F\hop>Set-Location "C:\Users\dhruv.tomar\OneDrive\Documents\Scanner" 
+2026/09/18 17:27:15 - Shell - ERROR: (stderr) 'Set-Location' is not recognized as an internal or external command,
+2026/09/18 17:27:15 - Shell - ERROR: (stderr) operable program or batch file.
+2026/09/18 17:27:15 - Shell - (stdout) 
+2026/09/18 17:27:15 - Shell - (stdout) C:\Users\dhruv.tomar\Documents\Scanner-F\hop>python "Test_Breakout.py" 
+2026/09/18 17:27:16 - Shell - ERROR: (stderr) python: can't open file 'C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\hop\\Test_Breakout.py': [Errno 2] No such file or directory
+2026/09/18 17:27:16 - Shell - (stdout) 
+2026/09/18 17:27:16 - Shell - (stdout) C:\Users\dhruv.tomar\Documents\Scanner-F\hop>python "Test_momentum.py" 
+2026/09/18 17:27:16 - Shell - ERROR: (stderr) python: can't open file 'C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\hop\\Test_momentum.py': [Errno 2] No such file or directory
+2026/09/18 17:27:16 - Shell - (stdout) 
+2026/09/18 17:27:16 - Shell - (stdout) C:\Users\dhruv.tomar\Documents\Scanner-F\hop>python "Test_Pullback.py" 
+2026/09/18 17:27:16 - Shell - ERROR: (stderr) python: can't open file 'C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\hop\\Test_Pullback.py': [Errno 2] No such file or directory
+2026/09/18 17:27:16 - Shell - (stdout) 
+2026/09/18 17:27:16 - Shell - (stdout) C:\Users\dhruv.tomar\Documents\Scanner-F\hop>python "Test_Trend.py" 
+2026/09/18 17:27:16 - Shell - ERROR: (stderr) python: can't open file 'C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\hop\\Test_Trend.py': [Errno 2] No such file or directory
+2026/09/18 17:27:16 - Shell - (stdout) 
+2026/09/18 17:27:16 - Shell - (stdout) C:\Users\dhruv.tomar\Documents\Scanner-F\hop>python "Test_volume_Breakout.py" 
+2026/09/18 17:27:16 - Shell - ERROR: (stderr) python: can't open file 'C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\hop\\Test_volume_Breakout.py': [Errno 2] No such file or directory
+2026/09/18 17:27:16 - workflow - Finished action [Shell] (result=[false])
+2026/09/18 17:27:16 - workflow - Workflow execution finished

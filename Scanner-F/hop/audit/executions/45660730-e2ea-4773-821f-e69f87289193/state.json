@@ -1,0 +1,17 @@
+{
+  "executionType" : "Workflow",
+  "parentId" : null,
+  "id" : "45660730-e2ea-4773-821f-e69f87289193",
+  "name" : "workflow",
+  "copyNr" : null,
+  "loggingText" : "2026/09/18 17:28:51 - workflow - Start of workflow execution\r\n2026/09/18 17:28:51 - workflow - Starting action [Start]\r\n2026/09/18 17:28:51 - workflow - Finished action [Start] (result=[true])\r\n2026/09/18 17:28:51 - workflow - Starting action [Shell]\r\n2026/09/18 17:28:51 - Shell - Running on platform : Windows 11\r\n2026/09/18 17:28:51 - Shell - Executing command : cmd.exe /C \"C:\\Users\\DHRUV~1.TOM\\AppData\\Local\\Temp\\hop_bf531ff6-b73b-4d2f-9b4a-440c0efe0401shell.bat\"\r\n2026/09/18 17:28:52 - Shell - (stdout) \r\n2026/09/18 17:28:52 - Shell - (stdout) C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\hop>\"C:\\Users\\dhruv.tomar\\OneDrive\\Documents\\Scanner\\.venv\\Scripts\\python.exe\" \"C:\\Users\\dhruv.tomar\\OneDrive\\Documents\\Scanner\\Test_Breakout.py\" \r\n2026/09/18 17:28:52 - Shell - ERROR: (stderr) error: uv trampoline failed to spawn Python child process\r\n2026/09/18 17:28:52 - Shell - ERROR: (stderr)   Caused by: entity not found (os error 2)\r\n2026/09/18 17:28:52 - Shell - ERROR: (stderr) \r\n2026/09/18 17:28:52 - Shell - (stdout) \r\n2026/09/18 17:28:52 - Shell - (stdout) C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\hop>\"C:\\Users\\dhruv.tomar\\OneDrive\\Documents\\Scanner\\.venv\\Scripts\\python.exe\" \"C:\\Users\\dhruv.tomar\\OneDrive\\Documents\\Scanner\\Test_momentum.py\" \r\n2026/09/18 17:28:52 - Shell - ERROR: (stderr) error: uv trampoline failed to spawn Python child process\r\n2026/09/18 17:28:52 - Shell - ERROR: (stderr)   Caused by: entity not found (os error 2)\r\n2026/09/18 17:28:52 - Shell - ERROR: (stderr) \r\n2026/09/18 17:28:52 - Shell - (stdout) \r\n2026/09/18 17:28:52 - Shell - (stdout) C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\hop>\"C:\\Users\\dhruv.tomar\\OneDrive\\Documents\\Scanner\\.venv\\Scripts\\python.exe\" \"C:\\Users\\dhruv.tomar\\OneDrive\\Documents\\Scanner\\Test_Pullback.py\" \r\n2026/09/18 17:28:52 - Shell - ERROR: (stderr) error: uv trampoline failed to spawn Python child process\r\n2026/09/18 17:28:52 - Shell - ERROR: (stderr)   Caused by: entity not found (os error 2)\r\n2026/09/18 17:28:52 - Shell - ERROR: (stde",
+  "lastLogLineNr" : 260,
+  "metrics" : [ ],
+  "statusDescription" : "Finished (with errors)",
+  "updateTime" : 1789732732515,
+  "childIds" : [ "26fc6ee7-654a-416d-8db3-7251f66e3d43", "18e15e73-8421-4f80-bd2e-dc0139e27673" ],
+  "details" : { },
+  "failed" : true,
+  "executionEndDate" : 1789732732513,
+  "containerId" : null
+}

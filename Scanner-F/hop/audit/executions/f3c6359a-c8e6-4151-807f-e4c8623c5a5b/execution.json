@@ -1,0 +1,16 @@
+{
+  "name" : "HTTP client",
+  "filename" : null,
+  "id" : "f3c6359a-c8e6-4151-807f-e4c8623c5a5b",
+  "parentId" : "a7ace486-e465-4fce-bc5b-66ecbcc41a7f",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1792393555851,
+  "executionStartDate" : 1792393555742,
+  "copyNr" : "0"
+}

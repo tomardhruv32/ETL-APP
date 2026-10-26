@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "f5d4527a-8976-42e7-9d05-16dbab49c122",
+  "id" : "6f2203bd-6f9f-413e-b767-ba8503cc24a9",
+  "name" : "Calculator 2 2",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Stopped",
+  "updateTime" : 1789794627303,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1789794627176,
+  "containerId" : null
+}

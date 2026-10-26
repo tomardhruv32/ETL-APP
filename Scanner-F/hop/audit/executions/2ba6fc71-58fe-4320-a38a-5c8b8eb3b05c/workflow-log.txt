@@ -1,0 +1,74 @@
+2026/09/18 17:18:11 - workflow - Start of workflow execution
+2026/09/18 17:18:11 - workflow - Starting action [Start]
+2026/09/18 17:18:11 - workflow - Finished action [Start] (result=[true])
+2026/09/18 17:18:11 - workflow - Starting action [ohlcv.hpl]
+2026/09/18 17:18:11 - ohlcv.hpl - Using run configuration [local]
+2026/09/18 17:18:11 - ohlcv - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/09/18 17:18:11 - ohlcv - Execution started for pipeline [ohlcv]
+2026/09/18 17:18:12 - HTTP client.0 - Starting to run...
+2026/09/18 17:18:18 - Upstox Instrument Json list.0 - Finished processing (I=75783, O=0, R=0, W=75783, U=0, E=0)
+2026/09/18 17:18:18 - Instrument_key, name,segent, instrument_type.0 - Finished processing (I=0, O=0, R=75783, W=75783, U=0, E=0)
+2026/09/18 17:18:18 - EQ & NSE EQ.0 - Finished processing (I=0, O=0, R=75783, W=2639, U=0, E=0)
+2026/09/18 17:18:18 - Remove Duplicates.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)
+2026/09/18 17:18:18 - Get current date.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)
+2026/09/18 17:18:18 - Constant 1 and 365.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)
+2026/09/18 17:18:18 - Remove Time from date - yyyy-MM-dd.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)
+2026/09/18 17:18:18 - Yesterday date and year date.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)
+2026/09/18 17:18:18 - Remove Time from dates.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)
+2026/09/18 17:18:18 - Only show Instrument key, name,from and to date.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)
+2026/09/18 17:18:18 - Add constants.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)
+2026/09/18 17:18:18 - Concat fields.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)
+2026/09/18 17:18:18 - Replace in string.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)
+2026/09/18 17:18:11 - workflow - Start of workflow execution
+2026/09/18 17:18:11 - workflow - Starting action [Start]
+2026/09/18 17:18:11 - workflow - Finished action [Start] (result=[true])
+2026/09/18 17:18:11 - workflow - Starting action [ohlcv.hpl]
+2026/09/18 17:18:11 - ohlcv.hpl - Using run configuration [local]
+2026/09/18 17:18:11 - ohlcv - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/09/18 17:18:11 - ohlcv - Execution started for pipeline [ohlcv]
+2026/09/18 17:18:12 - HTTP client.0 - Starting to run...
+2026/09/18 17:18:18 - Upstox Instrument Json list.0 - Finished processing (I=75783, O=0, R=0, W=75783, U=0, E=0)
+2026/09/18 17:18:18 - Instrument_key, name,segent, instrument_type.0 - Finished processing (I=0, O=0, R=75783, W=75783, U=0, E=0)
+2026/09/18 17:18:18 - EQ & NSE EQ.0 - Finished processing (I=0, O=0, R=75783, W=2639, U=0, E=0)
+2026/09/18 17:18:18 - Remove Duplicates.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)
+2026/09/18 17:18:18 - Get current date.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)
+2026/09/18 17:18:18 - Constant 1 and 365.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)
+2026/09/18 17:18:18 - Remove Time from date - yyyy-MM-dd.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)
+2026/09/18 17:18:18 - Yesterday date and year date.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)
+2026/09/18 17:18:18 - Remove Time from dates.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)
+2026/09/18 17:18:18 - Only show Instrument key, name,from and to date.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)
+2026/09/18 17:18:18 - Add constants.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)
+2026/09/18 17:18:18 - Concat fields.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)
+2026/09/18 17:18:18 - Replace in string.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)
+2026/09/18 17:18:19 - HTTP client.0 - Connecting to : [https://api.upstox.com/v3/historical-candle/NSE_EQ%7CINE0LLY01014/days/1/2026-09-17/2025-09-18]
+2026/09/18 17:18:19 - HTTP client.0 - Header parameter [Authorization]='Bearer eyJ0eXAiOiJKV1QiLCJrZXlfaWQiOiJza192MS4wIiwiYWxnIjoiSFMyNTYifQ.eyJzdWIiOiI4MkI4UlAiLCJqdGkiOiI2YTk2ODI3YWRjZGZiYTUyZWVhOTRlMGYiLCJpc011bHRpQ2xpZW50IjpmYWxzZSwiaXNQbHVzUGxhbiI6ZmFsc2UsImlzRXh0ZW5kZWQiOnRydWUsImlhdCI6MTc4ODI0ODY5OCwiaXNzIjoidWRhcGktZ2F0ZXdheS1zZXJ2aWNlIiwiZXhwIjoxODE5ODM2MDAwfQ.en1sbst5Cb-z9OYl9PDjWRAEkoSgMNlyvNTnsVlS_fk'
+2026/09/18 17:18:19 - HTTP client.0 - Header parameter [Accept]='application/json'
+2026/09/18 17:18:20 - HTTP client.0 - Response time (milliseconds): [564] for [https://api.upstox.com/v3/historical-candle/NSE_EQ%7CINE0LLY01014/days/1/2026-09-17/2025-09-18]
+2026/09/18 17:18:20 - HTTP client.0 - Response status code: 200
+2026/09/18 17:18:20 - HTTP client.0 - Connecting to : [https://api.upstox.com/v3/historical-candle/NSE_EQ%7CINE585B01010/days/1/2026-09-17/2025-09-18]
+2026/09/18 17:18:20 - HTTP client.0 - Header parameter [Authorization]='Bearer eyJ0eXAiOiJKV1QiLCJrZXlfaWQiOiJza192MS4wIiwiYWxnIjoiSFMyNTYifQ.eyJzdWIiOiI4MkI4UlAiLCJqdGkiOiI2YTk2ODI3YWRjZGZiYTUyZWVhOTRlMGYiLCJpc011bHRpQ2xpZW50IjpmYWxzZSwiaXNQbHVzUGxhbiI6ZmFsc2UsImlzRXh0ZW5kZWQiOnRydWUsImlhdCI6MTc4ODI0ODY5OCwiaXNzIjoidWRhcGktZ2F0ZXdheS1zZXJ2aWNlIiwiZXhwIjoxODE5ODM2MDAwfQ.en1sbst5Cb-z9OYl9PDjWRAEkoSgMNlyvNTnsVlS_fk'
+2026/09/18 17:18:20 - HTTP client.0 - Header parameter [Accept]='application/json'
+2026/09/18 17:18:20 - HTTP client.0 - Response time (milliseconds): [78] for [https://api.upstox.com/v3/historical-candle/NSE_EQ%7CINE585B01010/days/1/2026-09-17/2025-09-18]
+2026/09/18 17:18:20 - HTTP client.0 - Response status code: 200
+2026/09/18 17:18:21 - HTTP client.0 - Connecting to : [https://api.upstox.com/v3/historical-candle/NSE_EQ%7CINF109K1A476/days/1/2026-09-17/2025-09-18]
+2026/09/18 17:18:21 - HTTP client.0 - Header parameter [Authorization]='Bearer eyJ0eXAiOiJKV1QiLCJrZXlfaWQiOiJza192MS4wIiwiYWxnIjoiSFMyNTYifQ.eyJzdWIiOiI4MkI4UlAiLCJqdGkiOiI2YTk2ODI3YWRjZGZiYTUyZWVhOTRlMGYiLCJpc011bHRpQ2xpZW50IjpmYWxzZSwiaXNQbHVzUGxhbiI6ZmFsc2UsImlzRXh0ZW5kZWQiOnRydWUsImlhdCI6MTc4ODI0ODY5OCwiaXNzIjoidWRhcGktZ2F0ZXdheS1zZXJ2aWNlIiwiZXhwIjoxODE5ODM2MDAwfQ.en1sbst5Cb-z9OYl9PDjWRAEkoSgMNlyvNTnsVlS_fk'
+2026/09/18 17:18:21 - HTTP client.0 - Header parameter [Accept]='application/json'
+2026/09/18 17:18:21 - HTTP client.0 - Response time (milliseconds): [71] for [https://api.upstox.com/v3/historical-candle/NSE_EQ%7CINF109K1A476/days/1/2026-09-17/2025-09-18]
+2026/09/18 17:18:21 - HTTP client.0 - Response status code: 200
+2026/09/18 17:18:22 - HTTP client.0 - Connecting to : [https://api.upstox.com/v3/historical-candle/NSE_EQ%7CINE139A01034/days/1/2026-09-17/2025-09-18]
+2026/09/18 17:18:22 - HTTP client.0 - Header parameter [Authorization]='Bearer eyJ0eXAiOiJKV1QiLCJrZXlfaWQiOiJza192MS4wIiwiYWxnIjoiSFMyNTYifQ.eyJzdWIiOiI4MkI4UlAiLCJqdGkiOiI2YTk2ODI3YWRjZGZiYTUyZWVhOTRlMGYiLCJpc011bHRpQ2xpZW50IjpmYWxzZSwiaXNQbHVzUGxhbiI6ZmFsc2UsImlzRXh0ZW5kZWQiOnRydWUsImlhdCI6MTc4ODI0ODY5OCwiaXNzIjoidWRhcGktZ2F0ZXdheS1zZXJ2aWNlIiwiZXhwIjoxODE5ODM2MDAwfQ.en1sbst5Cb-z9OYl9PDjWRAEkoSgMNlyvNTnsVlS_fk'
+2026/09/18 17:18:22 - HTTP client.0 - Header parameter [Accept]='application/json'
+2026/09/18 17:18:22 - HTTP client.0 - Response time (milliseconds): [62] for [https://api.upstox.com/v3/historical-candle/NSE_EQ%7CINE139A01034/days/1/2026-09-17/2025-09-18]
+2026/09/18 17:18:22 - HTTP client.0 - Response status code: 200
+2026/09/18 17:18:22 - workflow - Stop workflow execution
+2026/09/18 17:18:22 - JSON input.0 - Finished processing (I=801, O=0, R=4, W=801, U=0, E=0)
+2026/09/18 17:18:22 - HTTP client.0 - Signaling 'output done' to 1 output rowsets.
+2026/09/18 17:18:22 - HTTP client.0 - Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2026/09/18 17:18:22 - Text file output.0 - Finished processing (I=0, O=802, R=801, W=801, U=0, E=0)
+2026/09/18 17:18:22 - Calculator.0 - Finished processing (I=0, O=0, R=801, W=801, U=0, E=0)
+2026/09/18 17:18:22 - Select values.0 - Finished processing (I=0, O=0, R=801, W=801, U=0, E=0)
+2026/09/18 17:18:23 - Delay row.0 - Finished processing (I=0, O=0, R=5, W=4, U=0, E=0)
+2026/09/18 17:18:23 - ohlcv - Pipeline duration : 11.372 seconds [ 11.372" ]
+2026/09/18 17:18:23 - ohlcv - Execution finished on a local pipeline engine with run configuration 'local'
+2026/09/18 17:18:23 - workflow - Finished action [ohlcv.hpl] (result=[true])
+2026/09/18 17:18:23 - workflow - Workflow execution finished

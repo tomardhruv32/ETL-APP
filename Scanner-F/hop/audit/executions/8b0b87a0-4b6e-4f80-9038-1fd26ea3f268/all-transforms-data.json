@@ -1,0 +1,371 @@
+{
+  "executionType" : "Transform",
+  "dataSetMeta" : null,
+  "finished" : true,
+  "collectionDate" : 1792393392403,
+  "parentId" : "8b0b87a0-4b6e-4f80-9038-1fd26ea3f268",
+  "ownerId" : "all-transforms",
+  "setMetaData" : {
+    "FirstOutput/Upstox Instrument Json list.0" : {
+      "setKey" : "FirstOutput/Upstox Instrument Json list.0",
+      "logChannelId" : "e05c5e35-4a85-4e60-a004-276f4585ecb7",
+      "name" : "Upstox Instrument Json list",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Upstox Instrument Json list.0"
+    },
+    "LastOutput/Select values.0" : {
+      "setKey" : "LastOutput/Select values.0",
+      "logChannelId" : "c4b99593-d81b-4121-b493-a4866ada8f41",
+      "name" : "Select values",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Select values.0"
+    },
+    "FirstOutput/Remove Duplicates.0" : {
+      "setKey" : "FirstOutput/Remove Duplicates.0",
+      "logChannelId" : "e168e2fc-6c5e-4934-bfec-e476e00ff8fb",
+      "name" : "Remove Duplicates",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Remove Duplicates.0"
+    },
+    "LastOutput/Concat fields.0" : {
+      "setKey" : "LastOutput/Concat fields.0",
+      "logChannelId" : "f3305029-67ee-48b8-8377-c7c667259a0d",
+      "name" : "Concat fields",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Concat fields.0"
+    },
+    "LastOutput/EQ & NSE EQ.0" : {
+      "setKey" : "LastOutput/EQ & NSE EQ.0",
+      "logChannelId" : "5ccb9d3e-210c-4a92-8c32-54f8bc35c978",
+      "name" : "EQ & NSE EQ",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of EQ & NSE EQ.0"
+    },
+    "LastOutput/Remove Time from date - yyyy-MM-dd.0" : {
+      "setKey" : "LastOutput/Remove Time from date - yyyy-MM-dd.0",
+      "logChannelId" : "1ac81ab9-31d6-4405-b5d5-1649e738d582",
+      "name" : "Remove Time from date - yyyy-MM-dd",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Remove Time from date - yyyy-MM-dd.0"
+    },
+    "LastOutput/Constant 1 and 365.0" : {
+      "setKey" : "LastOutput/Constant 1 and 365.0",
+      "logChannelId" : "a13b0257-42ec-4ba7-b36b-4c986d6fa2e5",
+      "name" : "Constant 1 and 365",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Constant 1 and 365.0"
+    },
+    "FirstOutput/Text file output.0" : {
+      "setKey" : "FirstOutput/Text file output.0",
+      "logChannelId" : "e20b28f2-3b6f-4c9d-ba57-cb460b03dceb",
+      "name" : "Text file output",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Text file output.0"
+    },
+    "FirstOutput/Remove Time from date - yyyy-MM-dd.0" : {
+      "setKey" : "FirstOutput/Remove Time from date - yyyy-MM-dd.0",
+      "logChannelId" : "1ac81ab9-31d6-4405-b5d5-1649e738d582",
+      "name" : "Remove Time from date - yyyy-MM-dd",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Remove Time from date - yyyy-MM-dd.0"
+    },
+    "LastOutput/Add constants.0" : {
+      "setKey" : "LastOutput/Add constants.0",
+      "logChannelId" : "59090cfd-3dd5-427f-a485-41bd3e210428",
+      "name" : "Add constants",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Add constants.0"
+    },
+    "LastOutput/Calculator.0" : {
+      "setKey" : "LastOutput/Calculator.0",
+      "logChannelId" : "05b98c77-4821-455b-823c-416c9583dce2",
+      "name" : "Calculator",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Calculator.0"
+    },
+    "FirstOutput/Replace in string.0" : {
+      "setKey" : "FirstOutput/Replace in string.0",
+      "logChannelId" : "ee1f6fed-8368-4455-abd7-e7da3af9123d",
+      "name" : "Replace in string",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Replace in string.0"
+    },
+    "LastOutput/Text file output.0" : {
+      "setKey" : "LastOutput/Text file output.0",
+      "logChannelId" : "e20b28f2-3b6f-4c9d-ba57-cb460b03dceb",
+      "name" : "Text file output",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Text file output.0"
+    },
+    "FirstOutput/Delay row.0" : {
+      "setKey" : "FirstOutput/Delay row.0",
+      "logChannelId" : "b06a52ed-39b0-40d5-83ea-9e91dffb75ca",
+      "name" : "Delay row",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Delay row.0"
+    },
+    "FirstOutput/JSON input.0" : {
+      "setKey" : "FirstOutput/JSON input.0",
+      "logChannelId" : "27e55031-3a44-4bb7-bd7a-534e94d99927",
+      "name" : "JSON input",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of JSON input.0"
+    },
+    "FirstOutput/limit 1 instrument only.0" : {
+      "setKey" : "FirstOutput/limit 1 instrument only.0",
+      "logChannelId" : "e179690e-1268-4163-90ec-7684d1cfbad1",
+      "name" : "limit 1 instrument only",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of limit 1 instrument only.0"
+    },
+    "LastOutput/Remove Time from dates.0" : {
+      "setKey" : "LastOutput/Remove Time from dates.0",
+      "logChannelId" : "bf7b7c5e-92e1-4412-886a-d6732362e2df",
+      "name" : "Remove Time from dates",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Remove Time from dates.0"
+    },
+    "LastOutput/Upstox Instrument Json list.0" : {
+      "setKey" : "LastOutput/Upstox Instrument Json list.0",
+      "logChannelId" : "e05c5e35-4a85-4e60-a004-276f4585ecb7",
+      "name" : "Upstox Instrument Json list",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Upstox Instrument Json list.0"
+    },
+    "LastOutput/Delay row.0" : {
+      "setKey" : "LastOutput/Delay row.0",
+      "logChannelId" : "b06a52ed-39b0-40d5-83ea-9e91dffb75ca",
+      "name" : "Delay row",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Delay row.0"
+    },
+    "FirstOutput/Instrument_key, name,segent, instrument_type.0" : {
+      "setKey" : "FirstOutput/Instrument_key, name,segent, instrument_type.0",
+      "logChannelId" : "22aaba12-7103-4616-b4bd-00ea1c57bda1",
+      "name" : "Instrument_key, name,segent, instrument_type",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Instrument_key, name,segent, instrument_type.0"
+    },
+    "FirstOutput/Concat fields.0" : {
+      "setKey" : "FirstOutput/Concat fields.0",
+      "logChannelId" : "f3305029-67ee-48b8-8377-c7c667259a0d",
+      "name" : "Concat fields",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Concat fields.0"
+    },
+    "LastOutput/Only show Instrument key, name,from and to date.0" : {
+      "setKey" : "LastOutput/Only show Instrument key, name,from and to date.0",
+      "logChannelId" : "28096668-7da2-4e58-916e-c9eeb249c76b",
+      "name" : "Only show Instrument key, name,from and to date",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Only show Instrument key, name,from and to date.0"
+    },
+    "LastOutput/Replace in string.0" : {
+      "setKey" : "LastOutput/Replace in string.0",
+      "logChannelId" : "ee1f6fed-8368-4455-abd7-e7da3af9123d",
+      "name" : "Replace in string",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Replace in string.0"
+    },
+    "LastOutput/limit 1 instrument only.0" : {
+      "setKey" : "LastOutput/limit 1 instrument only.0",
+      "logChannelId" : "e179690e-1268-4163-90ec-7684d1cfbad1",
+      "name" : "limit 1 instrument only",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of limit 1 instrument only.0"
+    },
+    "FirstOutput/Constant 1 and 365.0" : {
+      "setKey" : "FirstOutput/Constant 1 and 365.0",
+      "logChannelId" : "a13b0257-42ec-4ba7-b36b-4c986d6fa2e5",
+      "name" : "Constant 1 and 365",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Constant 1 and 365.0"
+    },
+    "FirstOutput/Remove Time from dates.0" : {
+      "setKey" : "FirstOutput/Remove Time from dates.0",
+      "logChannelId" : "bf7b7c5e-92e1-4412-886a-d6732362e2df",
+      "name" : "Remove Time from dates",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Remove Time from dates.0"
+    },
+    "LastOutput/Remove Duplicates.0" : {
+      "setKey" : "LastOutput/Remove Duplicates.0",
+      "logChannelId" : "e168e2fc-6c5e-4934-bfec-e476e00ff8fb",
+      "name" : "Remove Duplicates",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Remove Duplicates.0"
+    },
+    "FirstOutput/Only show Instrument key, name,from and to date.0" : {
+      "setKey" : "FirstOutput/Only show Instrument key, name,from and to date.0",
+      "logChannelId" : "28096668-7da2-4e58-916e-c9eeb249c76b",
+      "name" : "Only show Instrument key, name,from and to date",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Only show Instrument key, name,from and to date.0"
+    },
+    "FirstOutput/Get current date.0" : {
+      "setKey" : "FirstOutput/Get current date.0",
+      "logChannelId" : "914d73a6-af01-44e7-a756-d081557425aa",
+      "name" : "Get current date",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Get current date.0"
+    },
+    "LastOutput/HTTP client.0" : {
+      "setKey" : "LastOutput/HTTP client.0",
+      "logChannelId" : "b6e65a75-12a9-4359-8dd7-24a42b3f79fd",
+      "name" : "HTTP client",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of HTTP client.0"
+    },
+    "LastOutput/Yesterday date and year date.0" : {
+      "setKey" : "LastOutput/Yesterday date and year date.0",
+      "logChannelId" : "38dd02f5-f554-482a-876f-a27567fdce1c",
+      "name" : "Yesterday date and year date",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Yesterday date and year date.0"
+    },
+    "LastOutput/Instrument_key, name,segent, instrument_type.0" : {
+      "setKey" : "LastOutput/Instrument_key, name,segent, instrument_type.0",
+      "logChannelId" : "22aaba12-7103-4616-b4bd-00ea1c57bda1",
+      "name" : "Instrument_key, name,segent, instrument_type",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Instrument_key, name,segent, instrument_type.0"
+    },
+    "FirstOutput/EQ & NSE EQ.0" : {
+      "setKey" : "FirstOutput/EQ & NSE EQ.0",
+      "logChannelId" : "5ccb9d3e-210c-4a92-8c32-54f8bc35c978",
+      "name" : "EQ & NSE EQ",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of EQ & NSE EQ.0"
+    },
+    "LastOutput/JSON input.0" : {
+      "setKey" : "LastOutput/JSON input.0",
+      "logChannelId" : "27e55031-3a44-4bb7-bd7a-534e94d99927",
+      "name" : "JSON input",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of JSON input.0"
+    },
+    "LastOutput/Get current date.0" : {
+      "setKey" : "LastOutput/Get current date.0",
+      "logChannelId" : "914d73a6-af01-44e7-a756-d081557425aa",
+      "name" : "Get current date",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Get current date.0"
+    },
+    "FirstOutput/Add constants.0" : {
+      "setKey" : "FirstOutput/Add constants.0",
+      "logChannelId" : "59090cfd-3dd5-427f-a485-41bd3e210428",
+      "name" : "Add constants",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Add constants.0"
+    },
+    "FirstOutput/HTTP client.0" : {
+      "setKey" : "FirstOutput/HTTP client.0",
+      "logChannelId" : "b6e65a75-12a9-4359-8dd7-24a42b3f79fd",
+      "name" : "HTTP client",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of HTTP client.0"
+    },
+    "FirstOutput/Yesterday date and year date.0" : {
+      "setKey" : "FirstOutput/Yesterday date and year date.0",
+      "logChannelId" : "38dd02f5-f554-482a-876f-a27567fdce1c",
+      "name" : "Yesterday date and year date",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Yesterday date and year date.0"
+    },
+    "FirstOutput/Select values.0" : {
+      "setKey" : "FirstOutput/Select values.0",
+      "logChannelId" : "c4b99593-d81b-4121-b493-a4866ada8f41",
+      "name" : "Select values",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Select values.0"
+    },
+    "FirstOutput/Calculator.0" : {
+      "setKey" : "FirstOutput/Calculator.0",
+      "logChannelId" : "05b98c77-4821-455b-823c-416c9583dce2",
+      "name" : "Calculator",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Calculator.0"
+    }
+  },
+  "rowsBinaryGzipBase64Encoded" : "H4sIAAAAAAAA/6VVXU/bQBD0rwBaBF0JigAlJQi1UlH7gCB8qZCmCQ88RSd7gVPPd9bdGfC/5xwBGUd2ErV+tOdmZ2fn1lEUbUc7p9I638t9lvu9m8x580wX2nmbp6w9XTqjSUnnv3Sit+fjL/F+YsCKY0+PQuXsAPMJaf9wah6ZTvJMyVj4ChDJjo0On+lOskoQswKYbp+26HrQpW4fEHuAeK02lCnTnTUpJaEktakIT/vqqp0kqLNa3nkRmt4noRM6+PYVgOvY0JCfS5mKyYxfAK5T0/hiUtCJoySh+FUOOrGMcoWKcyW8sc2+Z0rETFJTGKjU9wBcA6YZ7Swj3wkrUZA1TzgbBFwOetehWpXiMyKUTGVpsJxEzGhVAHxj3ijRj20ALxbeJThR188hqp1wjf5y0SItUm45vg8vWtDCyBcZA8cqcjSF+gcI6QULyD2YJ1Q/qThuvYykN2MHMJYVt5rHvQm4+TOgqQaar8Xm3Li7RrXNS+Ensv6HOUhzxp7i3Nry9BQO98v5cPibYiUDDBA7gLhl59kmITnj21yWLljYadLvcOQfc/QB9dcvPlwItbcP7/kMCyqRbdo+FT31Ru0iZEGnKrWbfiiVPVO3+l4ASMMIm84GAAA="
+}

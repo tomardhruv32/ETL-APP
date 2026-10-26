@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "d7f57cc9-7831-446b-9681-9664e8f3ffd1",
+  "id" : "81fe46a5-3d24-40be-85f4-655a8ac004f5",
+  "name" : "Remove Duplicates",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Stopped",
+  "updateTime" : 1789732103276,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1789732098202,
+  "containerId" : null
+}

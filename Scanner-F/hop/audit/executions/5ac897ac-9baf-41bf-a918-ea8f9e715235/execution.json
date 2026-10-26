@@ -1,0 +1,16 @@
+{
+  "name" : "ohlcv.hpl",
+  "filename" : null,
+  "id" : "5ac897ac-9baf-41bf-a918-ea8f9e715235",
+  "parentId" : "fe3ed445-19bb-4940-9efc-44427c7bace0",
+  "executionType" : "Action",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1789791816237,
+  "executionStartDate" : 1789791816237,
+  "copyNr" : null
+}

@@ -1,0 +1,16 @@
+{
+  "name" : "trend_results.csv",
+  "filename" : null,
+  "id" : "ce32c901-1316-4cc6-8508-06fcd3580113",
+  "parentId" : "f5d4527a-8976-42e7-9d05-16dbab49c122",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1789794627067,
+  "executionStartDate" : 1789794626971,
+  "copyNr" : "0"
+}

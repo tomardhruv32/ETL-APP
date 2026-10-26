@@ -1,0 +1,17 @@
+{
+  "executionType" : "Workflow",
+  "parentId" : null,
+  "id" : "7c89fa94-7ea1-44ab-a735-a5cbcc5ecf93",
+  "name" : "workflow",
+  "copyNr" : null,
+  "loggingText" : "2026/09/18 17:27:54 - workflow - Start of workflow execution\r\n2026/09/18 17:27:54 - workflow - Starting action [Start]\r\n2026/09/18 17:27:54 - workflow - Finished action [Start] (result=[true])\r\n2026/09/18 17:27:54 - workflow - Starting action [Shell]\r\n2026/09/18 17:27:54 - Shell - Running on platform : Windows 11\r\n2026/09/18 17:27:54 - Shell - Executing command : cmd.exe /C \"C:\\Users\\DHRUV~1.TOM\\AppData\\Local\\Temp\\hop_63ee97f9-8753-4a92-a6fd-ecce9cc2ec09shell.bat\"\r\n2026/09/18 17:27:54 - Shell - (stdout) \r\n2026/09/18 17:27:54 - Shell - (stdout) C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\hop>cd /d \"C:\\Users\\dhruv.tomar\\OneDrive\\Documents\\Scanner\" \r\n2026/09/18 17:27:54 - Shell - (stdout) \r\n2026/09/18 17:27:54 - Shell - (stdout) C:\\Users\\dhruv.tomar\\OneDrive\\Documents\\Scanner>python \"Test_Breakout.py\" \r\n2026/09/18 17:27:55 - Shell - ERROR: (stderr) Traceback (most recent call last):\r\n2026/09/18 17:27:55 - Shell - ERROR: (stderr)   File \"C:\\Users\\dhruv.tomar\\OneDrive\\Documents\\Scanner\\Test_Breakout.py\", line 40, in <module>\r\n2026/09/18 17:27:55 - Shell - ERROR: (stderr)     import pandas as pd\r\n2026/09/18 17:27:55 - Shell - ERROR: (stderr) ModuleNotFoundError: No module named 'pandas'\r\n2026/09/18 17:27:55 - Shell - (stdout) \r\n2026/09/18 17:27:55 - Shell - (stdout) C:\\Users\\dhruv.tomar\\OneDrive\\Documents\\Scanner>python \"Test_momentum.py\" \r\n2026/09/18 17:27:55 - Shell - ERROR: (stderr) Traceback (most recent call last):\r\n2026/09/18 17:27:55 - Shell - ERROR: (stderr)   File \"C:\\Users\\dhruv.tomar\\OneDrive\\Documents\\Scanner\\Test_momentum.py\", line 10, in <module>\r\n2026/09/18 17:27:55 - Shell - ERROR: (stderr)     import pandas as pd\r\n2026/09/18 17:27:55 - Shell - ERROR: (stderr) ModuleNotFoundError: No module named 'pandas'\r\n2026/09/18 17:27:55 - Shell - (stdout) \r\n2026/09/18 17:27:55 - Shell - (stdout) C:\\Users\\dhruv.tomar\\OneDrive\\Documents\\Scanner>python \"Test_Pullback.py\" \r\n2026/09/18 17:27:55 - Shell - ERROR: (stderr) Traceback (most recent call last):\r\n2026/09/18 17:27:55",
+  "lastLogLineNr" : 223,
+  "metrics" : [ ],
+  "statusDescription" : "Finished (with errors)",
+  "updateTime" : 1789732676114,
+  "childIds" : [ "09e3ae62-8a40-437a-9acf-0d2b14dcccde", "eaf75be8-d162-43b0-8095-dd1594bcc63d" ],
+  "details" : { },
+  "failed" : true,
+  "executionEndDate" : 1789732676113,
+  "containerId" : null
+}

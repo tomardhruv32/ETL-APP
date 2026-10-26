@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "a7ace486-e465-4fce-bc5b-66ecbcc41a7f",
+  "id" : "88f724ac-ece1-4240-800b-578846f44c4f",
+  "name" : "Constant 1 and 365",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Finished",
+  "updateTime" : 1792393556263,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1792393555988,
+  "containerId" : "539bd56d-8208-4b2a-b948-c6beb570bfbf"
+}

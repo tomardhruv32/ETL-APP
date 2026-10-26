@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "d7f57cc9-7831-446b-9681-9664e8f3ffd1",
+  "id" : "9e6c78c5-824b-4b0e-b587-5ffd8bc9dbed",
+  "name" : "Upstox Instrument Json list",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Stopped",
+  "updateTime" : 1789732103260,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1789732098183,
+  "containerId" : null
+}

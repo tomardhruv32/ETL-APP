@@ -1,0 +1,72 @@
+2026/10/19 14:33:38 - Hop - Projects enabled
+2026/10/19 14:33:38 - Hop - Enabling project : 'default'
+2026/10/19 14:33:38 - Hop - Two-way password encoder initialized with plugin ID 'Hop' for project 'default'
+[31m2026/10/19 14:33:38 - Hop - ERROR: Error opening file 'C:\Users\dhruv.tomar\Desktop\ohlcvcloud.hpl'
+2026/10/19 14:33:38 - Hop - org.apache.hop.core.exception.HopException: 
+2026/10/19 14:33:38 - Hop - Error opening pipeline file 'C:\Users\dhruv.tomar\Desktop\ohlcvcloud.hpl'
+2026/10/19 14:33:38 - Hop - 
+2026/10/19 14:33:38 - Hop - The pipeline path C:\Users\dhruv.tomar\Desktop\ohlcvcloud.hpl is invalid, and will not run successfully.
+2026/10/19 14:33:38 - Hop - 
+2026/10/19 14:33:38 - Hop - 
+2026/10/19 14:33:38 - Hop - 	at org.apache.hop.ui.hopgui.file.pipeline.HopPipelineFileType.openFile(HopPipelineFileType.java:158)
+2026/10/19 14:33:38 - Hop - 	at org.apache.hop.ui.hopgui.delegates.HopGuiFileDelegate.fileOpenWithType(HopGuiFileDelegate.java:163)
+2026/10/19 14:33:38 - Hop - 	at org.apache.hop.ui.hopgui.delegates.HopGuiAuditDelegate.openLastFilesInternal(HopGuiAuditDelegate.java:197)
+2026/10/19 14:33:38 - Hop - 	at org.apache.hop.ui.hopgui.delegates.HopGuiAuditDelegate.openLastFiles(HopGuiAuditDelegate.java:91)
+2026/10/19 14:33:38 - Hop - 	at org.apache.hop.projects.gui.ProjectsGuiPlugin.enableHopGuiProject(ProjectsGuiPlugin.java:243)
+2026/10/19 14:33:38 - Hop - 	at org.apache.hop.projects.xp.HopGuiStartProjectLoad.callExtensionPoint(HopGuiStartProjectLoad.java:134)
+2026/10/19 14:33:38 - Hop - 	at org.apache.hop.core.extension.ExtensionPointMap.callExtensionPoint(ExtensionPointMap.java:153)
+2026/10/19 14:33:38 - Hop - 	at org.apache.hop.core.extension.ExtensionPointHandler.callExtensionPoint(ExtensionPointHandler.java:41)
+2026/10/19 14:33:38 - Hop - 	at org.apache.hop.ui.hopgui.HopGui.lambda$open$0(HopGui.java:556)
+2026/10/19 14:33:38 - Hop - 	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+2026/10/19 14:33:38 - Hop - 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:131)
+2026/10/19 14:33:38 - Hop - 	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4136)
+2026/10/19 14:33:38 - Hop - 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3752)
+2026/10/19 14:33:38 - Hop - 	at org.apache.hop.ui.core.dialog.BaseDialog.defaultShellHandling(BaseDialog.java:929)
+2026/10/19 14:33:38 - Hop - 	at org.apache.hop.ui.core.dialog.BaseDialog.defaultShellHandling(BaseDialog.java:865)
+2026/10/19 14:33:38 - Hop - 	at org.apache.hop.ui.core.dialog.BaseDialog.defaultShellHandling(BaseDialog.java:850)
+2026/10/19 14:33:38 - Hop - 	at org.apache.hop.ui.hopgui.welcome.WelcomeDialog.open(WelcomeDialog.java:157)
+2026/10/19 14:33:38 - Hop - 	at org.apache.hop.ui.hopgui.HopGui.open(HopGui.java:607)
+2026/10/19 14:33:38 - Hop - 	at org.apache.hop.ui.hopgui.HopGui.main(HopGui.java:454)
+2026/10/19 14:33:38 - Hop - Caused by: org.apache.hop.core.exception.HopXmlException: 
+2026/10/19 14:33:38 - Hop - The pipeline path C:\Users\dhruv.tomar\Desktop\ohlcvcloud.hpl is invalid, and will not run successfully.
+2026/10/19 14:33:38 - Hop - 
+2026/10/19 14:33:38 - Hop - 	at org.apache.hop.pipeline.PipelineMeta.loadXml(PipelineMeta.java:1521)
+2026/10/19 14:33:38 - Hop - 	at org.apache.hop.pipeline.PipelineMeta.<init>(PipelineMeta.java:1509)
+2026/10/19 14:33:38 - Hop - 	at org.apache.hop.ui.hopgui.file.pipeline.HopPipelineFileType.openFile(HopPipelineFileType.java:141)
+2026/10/19 14:33:38 - Hop - 	... 18 more[0m
+2026/10/19 14:34:54 - Hop - Pipeline opened.
+2026/10/19 14:34:54 - Hop - Launching pipeline [supabase]...
+2026/10/19 14:34:54 - Hop - Started executing pipeline 'supabase'.
+2026/10/19 14:34:54 - supabase - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/10/19 14:34:54 - supabase - Execution started for pipeline [supabase]
+2026/10/19 14:34:54 - breakout.csv.0 - Opening file: file:///C:/Users/dhruv.tomar/Documents/Scanner-F/breakout_results.csv
+2026/10/19 14:34:54 - pullback_results.csv.0 - Opening file: file:///C:/Users/dhruv.tomar/Documents/Scanner-F/pullback_results.csv
+2026/10/19 14:34:54 - momentum_results.csv.0 - Opening file: file:///C:/Users/dhruv.tomar/Documents/Scanner-F/momentum_results.csv
+2026/10/19 14:34:54 - volume_breakout_results.csv.0 - Opening file: file:///C:/Users/dhruv.tomar/Documents/Scanner-F/volume_breakout_results.csv
+2026/10/19 14:34:54 - trend_results.csv.0 - Opening file: file:///C:/Users/dhruv.tomar/Documents/Scanner-F/trend_results.csv
+2026/10/19 14:34:54 - pullback_results.csv.0 - Finished processing (I=183, O=0, R=0, W=182, U=1, E=0)
+2026/10/19 14:34:54 - momentum_results.csv.0 - Finished processing (I=88, O=0, R=0, W=87, U=1, E=0)
+2026/10/19 14:34:54 - Calculator 2 2.0 - Finished processing (I=0, O=0, R=182, W=182, U=0, E=0)
+2026/10/19 14:34:54 - volume_breakout_results.csv.0 - Finished processing (I=37, O=0, R=0, W=36, U=1, E=0)
+2026/10/19 14:34:54 - Calculator 2.0 - Finished processing (I=0, O=0, R=87, W=87, U=0, E=0)
+2026/10/19 14:34:54 - Get system info 2 2.0 - Finished processing (I=0, O=0, R=182, W=182, U=0, E=0)
+2026/10/19 14:34:54 - Calculator 2 2 2 2.0 - Finished processing (I=0, O=0, R=36, W=36, U=0, E=0)
+2026/10/19 14:34:54 - Get system info 2.0 - Finished processing (I=0, O=0, R=87, W=87, U=0, E=0)
+2026/10/19 14:34:54 - breakout.csv.0 - Finished processing (I=36, O=0, R=0, W=35, U=1, E=0)
+2026/10/19 14:34:54 - Get system info 2 2 2 2.0 - Finished processing (I=0, O=0, R=36, W=36, U=0, E=0)
+2026/10/19 14:34:54 - Select values 2 2.0 - Finished processing (I=0, O=0, R=182, W=182, U=0, E=0)
+2026/10/19 14:34:54 - Calculator.0 - Finished processing (I=0, O=0, R=35, W=35, U=0, E=0)
+2026/10/19 14:34:54 - Select values 2.0 - Finished processing (I=0, O=0, R=87, W=87, U=0, E=0)
+2026/10/19 14:34:54 - Select values 2 2 2 2.0 - Finished processing (I=0, O=0, R=36, W=36, U=0, E=0)
+2026/10/19 14:34:54 - Get system info.0 - Finished processing (I=0, O=0, R=35, W=35, U=0, E=0)
+2026/10/19 14:34:54 - trend_results.csv.0 - Finished processing (I=154, O=0, R=0, W=153, U=1, E=0)
+2026/10/19 14:34:54 - Select values.0 - Finished processing (I=0, O=0, R=35, W=35, U=0, E=0)
+2026/10/19 14:34:54 - Calculator 2 2 2.0 - Finished processing (I=0, O=0, R=153, W=153, U=0, E=0)
+2026/10/19 14:34:54 - Get system info 2 2 2.0 - Finished processing (I=0, O=0, R=153, W=153, U=0, E=0)
+2026/10/19 14:34:54 - Select values 2 2 2.0 - Finished processing (I=0, O=0, R=153, W=153, U=0, E=0)
+2026/10/19 14:34:54 - PostgreSQL bulk loader.0 - Detect client_encoding: UTF8
+2026/10/19 14:34:54 - PostgreSQL bulk loader.0 - Launching command: COPY "public".opportunities ( instrument_key, stock_name, signal_score, signal_date, signal )  FROM STDIN WITH CSV DELIMITER AS ';' QUOTE AS '"';
+2026/10/19 14:34:54 - PostgreSQL bulk loader.0 - Finished processing (I=0, O=493, R=493, W=493, U=0, E=0)
+2026/10/19 14:34:54 - supabase - Pipeline duration : 0.859 seconds [  0.859" ]
+2026/10/19 14:34:54 - Hop - Pipeline 'supabase' completed.
+2026/10/19 14:34:55 - supabase - Execution finished on a local pipeline engine with run configuration 'local'

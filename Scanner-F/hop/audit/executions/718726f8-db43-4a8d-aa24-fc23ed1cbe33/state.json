@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "d3b03750-2be3-473c-8715-613453934e5c",
+  "id" : "718726f8-db43-4a8d-aa24-fc23ed1cbe33",
+  "name" : "Remove Time from dates",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Finished",
+  "updateTime" : 1789731072866,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1789728412566,
+  "containerId" : null
+}

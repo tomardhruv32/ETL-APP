@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "6f3468ab-6fc7-43b6-bb1d-7dc0434b9565",
+  "id" : "b8f2138d-e73e-4170-93d6-53680ddb0bec",
+  "name" : "volume_breakout_results.csv",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Stopped",
+  "updateTime" : 1789732325090,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1789732324856,
+  "containerId" : null
+}

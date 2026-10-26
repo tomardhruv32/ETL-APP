@@ -1,0 +1,16 @@
+{
+  "name" : "Only show Instrument key, name,from and to date",
+  "filename" : null,
+  "id" : "eb2db4ae-3f24-4791-a30e-ac895281d604",
+  "parentId" : "c2c19538-78af-4a5a-b24e-49e4c82423c5",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1789791816599,
+  "executionStartDate" : 1789791816358,
+  "copyNr" : "0"
+}

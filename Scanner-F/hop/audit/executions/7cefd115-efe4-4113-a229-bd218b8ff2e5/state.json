@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "d3b03750-2be3-473c-8715-613453934e5c",
+  "id" : "7cefd115-efe4-4113-a229-bd218b8ff2e5",
+  "name" : "Only show Instrument key, name,from and to date",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Finished",
+  "updateTime" : 1789731072877,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1789728412580,
+  "containerId" : null
+}

@@ -1,0 +1,353 @@
+{
+  "executionType" : "Pipeline",
+  "parentId" : null,
+  "id" : "ac24153c-a16a-43ac-98f3-b2e908e51bce",
+  "name" : "supabase",
+  "copyNr" : null,
+  "loggingText" : "2026/10/19 10:32:31 - supabase - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\r\n2026/10/19 10:32:31 - supabase - Execution started for pipeline [supabase]\r\n2026/10/19 10:32:31 - breakout.csv.0 - Opening file: file:///C:/Users/dhruv.tomar/Documents/Scanner-F/breakout_results.csv\r\n2026/10/19 10:32:31 - momentum_results.csv.0 - Opening file: file:///C:/Users/dhruv.tomar/Documents/Scanner-F/momentum_results.csv\r\n2026/10/19 10:32:31 - pullback_results.csv.0 - Opening file: file:///C:/Users/dhruv.tomar/Documents/Scanner-F/pullback_results.csv\r\n2026/10/19 10:32:31 - trend_results.csv.0 - Opening file: file:///C:/Users/dhruv.tomar/Documents/Scanner-F/trend_results.csv\r\n2026/10/19 10:32:31 - volume_breakout_results.csv.0 - Opening file: file:///C:/Users/dhruv.tomar/Documents/Scanner-F/volume_breakout_results.csv\r\n2026/10/19 10:32:31 - momentum_results.csv.0 - Finished processing (I=88, O=0, R=0, W=87, U=1, E=0)\r\n2026/10/19 10:32:31 - pullback_results.csv.0 - Finished processing (I=183, O=0, R=0, W=182, U=1, E=0)\r\n2026/10/19 10:32:31 - Calculator 2.0 - Finished processing (I=0, O=0, R=87, W=87, U=0, E=0)\r\n2026/10/19 10:32:31 - volume_breakout_results.csv.0 - Finished processing (I=37, O=0, R=0, W=36, U=1, E=0)\r\n2026/10/19 10:32:31 - breakout.csv.0 - Finished processing (I=36, O=0, R=0, W=35, U=1, E=0)\r\n2026/10/19 10:32:31 - Calculator 2 2.0 - Finished processing (I=0, O=0, R=182, W=182, U=0, E=0)\r\n2026/10/19 10:32:31 - Get system info 2.0 - Finished processing (I=0, O=0, R=87, W=87, U=0, E=0)\r\n2026/10/19 10:32:31 - Calculator.0 - Finished processing (I=0, O=0, R=35, W=35, U=0, E=0)\r\n2026/10/19 10:32:31 - Calculator 2 2 2 2.0 - Finished processing (I=0, O=0, R=36, W=36, U=0, E=0)\r\n2026/10/19 10:32:31 - Get system info 2 2.0 - Finished processing (I=0, O=0, R=182, W=182, U=0, E=0)\r\n2026/10/19 10:32:31 - Get system info 2 2 2 2.0 - Finished processing (I=0, O=0, R=36, W=36, U=0, E=0)\r\n2026/10/19 10:32:31 - Select values 2.0 - Finished pro",
+  "lastLogLineNr" : 38,
+  "metrics" : [ {
+    "componentName" : "breakout.csv",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 456,
+      "Input" : 36,
+      "Written" : 35,
+      "Updated" : 1,
+      "Output" : 0,
+      "Duration" : 79,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Calculator",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 35,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 422,
+      "Input" : 0,
+      "Written" : 35,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 83,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Get system info",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 35,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 376,
+      "Input" : 0,
+      "Written" : 35,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 93,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select values",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 35,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 361,
+      "Input" : 0,
+      "Written" : 35,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 97,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "momentum_results.csv",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 1956,
+      "Input" : 88,
+      "Written" : 87,
+      "Updated" : 1,
+      "Output" : 0,
+      "Duration" : 45,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Calculator 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 87,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 1115,
+      "Input" : 0,
+      "Written" : 87,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 78,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Get system info 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 87,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 1061,
+      "Input" : 0,
+      "Written" : 87,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 82,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select values 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 87,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 1012,
+      "Input" : 0,
+      "Written" : 87,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 86,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "pullback_results.csv",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 3519,
+      "Input" : 183,
+      "Written" : 182,
+      "Updated" : 1,
+      "Output" : 0,
+      "Duration" : 52,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Calculator 2 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 182,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 2247,
+      "Input" : 0,
+      "Written" : 182,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 81,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Get system info 2 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 182,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 2141,
+      "Input" : 0,
+      "Written" : 182,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 85,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select values 2 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 182,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 1896,
+      "Input" : 0,
+      "Written" : 182,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 96,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "trend_results.csv",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 1571,
+      "Input" : 154,
+      "Written" : 153,
+      "Updated" : 1,
+      "Output" : 0,
+      "Duration" : 98,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Calculator 2 2 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 153,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 1545,
+      "Input" : 0,
+      "Written" : 153,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 99,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Get system info 2 2 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 153,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 1545,
+      "Input" : 0,
+      "Written" : 153,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 99,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select values 2 2 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 153,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 1545,
+      "Input" : 0,
+      "Written" : 153,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 99,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "volume_breakout_results.csv",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 521,
+      "Input" : 37,
+      "Written" : 36,
+      "Updated" : 1,
+      "Output" : 0,
+      "Duration" : 71,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Calculator 2 2 2 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 36,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 439,
+      "Input" : 0,
+      "Written" : 36,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 82,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Get system info 2 2 2 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 36,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 409,
+      "Input" : 0,
+      "Written" : 36,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 88,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select values 2 2 2 2",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 36,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 371,
+      "Input" : 0,
+      "Written" : 36,
+      "Updated" : 0,
+      "Output" : 0,
+      "Duration" : 97,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "PostgreSQL bulk loader",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 493,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Speed" : 988,
+      "Input" : 0,
+      "Written" : 493,
+      "Updated" : 0,
+      "Output" : 493,
+      "Duration" : 499,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  } ],
+  "statusDescription" : "Finished",
+  "updateTime" : 1792386152078,
+  "childIds" : [ "880bb3b6-58c3-48ac-aab7-d47c249214d4", "19df70b7-2bb0-435b-9920-1fe61a6431e0", "e62bc3ed-beaf-40b1-b3b6-7627f6236086", "4d699d36-b25b-46fe-a554-b961917968a3", "2a04dc2a-2775-4417-b889-2a97584c6819", "2da893fb-a6cb-4c79-9a2c-3d78f0913b79", "b9341586-848d-42ae-aa21-50fc01796761", "70202ab3-03ca-4142-bc43-05b75b00d4b9", "9e5dad95-dbc9-4c59-823f-9a29977d2027", "eae57a08-c24c-4a65-86bb-24d88c4a455a", "60df2541-59c9-4191-b38e-2fea7dba4a84", "ec5b2678-abe9-43d9-b00d-3dc01b59a16f", "994237c9-f9fb-4404-847f-0e0338936cf6", "ed18826d-c13b-4c1a-8107-cbb941be1a88", "48f83a4a-f31c-4f58-916a-f0a9ca15224b", "6f966ffe-51b8-41f3-9adf-9734cab3e3e6", "4edb4f93-dd9e-4e36-9867-f434c0f78a69", "37d532ee-571c-4bdb-80b3-66dbcd91db11", "27c9b0ba-a030-48ab-b738-92a5483074ef", "b8e9aee6-91f6-4b0f-9de2-27cdf09adc4d", "9079f0d9-dc85-479e-81cf-802ee1b5db89" ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1792386152073,
+  "containerId" : "432f210e-6049-4620-9a92-68584dcf592f"
+}

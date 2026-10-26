@@ -1,0 +1,16 @@
+{
+  "name" : "EQ & NSE EQ",
+  "filename" : null,
+  "id" : "ad1975d9-928a-4fe2-a2d2-c59787f3886f",
+  "parentId" : "89d64bf6-ac94-4f00-85b4-eb3c2f624283",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1792393592734,
+  "executionStartDate" : 1792393592684,
+  "copyNr" : "0"
+}

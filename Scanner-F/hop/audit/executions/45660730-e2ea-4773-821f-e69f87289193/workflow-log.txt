@@ -1,0 +1,33 @@
+2026/09/18 17:28:51 - workflow - Start of workflow execution
+2026/09/18 17:28:51 - workflow - Starting action [Start]
+2026/09/18 17:28:51 - workflow - Finished action [Start] (result=[true])
+2026/09/18 17:28:51 - workflow - Starting action [Shell]
+2026/09/18 17:28:51 - Shell - Running on platform : Windows 11
+2026/09/18 17:28:51 - Shell - Executing command : cmd.exe /C "C:\Users\DHRUV~1.TOM\AppData\Local\Temp\hop_bf531ff6-b73b-4d2f-9b4a-440c0efe0401shell.bat"
+2026/09/18 17:28:52 - Shell - (stdout) 
+2026/09/18 17:28:52 - Shell - (stdout) C:\Users\dhruv.tomar\Documents\Scanner-F\hop>"C:\Users\dhruv.tomar\OneDrive\Documents\Scanner\.venv\Scripts\python.exe" "C:\Users\dhruv.tomar\OneDrive\Documents\Scanner\Test_Breakout.py" 
+2026/09/18 17:28:52 - Shell - ERROR: (stderr) error: uv trampoline failed to spawn Python child process
+2026/09/18 17:28:52 - Shell - ERROR: (stderr)   Caused by: entity not found (os error 2)
+2026/09/18 17:28:52 - Shell - ERROR: (stderr) 
+2026/09/18 17:28:52 - Shell - (stdout) 
+2026/09/18 17:28:52 - Shell - (stdout) C:\Users\dhruv.tomar\Documents\Scanner-F\hop>"C:\Users\dhruv.tomar\OneDrive\Documents\Scanner\.venv\Scripts\python.exe" "C:\Users\dhruv.tomar\OneDrive\Documents\Scanner\Test_momentum.py" 
+2026/09/18 17:28:52 - Shell - ERROR: (stderr) error: uv trampoline failed to spawn Python child process
+2026/09/18 17:28:52 - Shell - ERROR: (stderr)   Caused by: entity not found (os error 2)
+2026/09/18 17:28:52 - Shell - ERROR: (stderr) 
+2026/09/18 17:28:52 - Shell - (stdout) 
+2026/09/18 17:28:52 - Shell - (stdout) C:\Users\dhruv.tomar\Documents\Scanner-F\hop>"C:\Users\dhruv.tomar\OneDrive\Documents\Scanner\.venv\Scripts\python.exe" "C:\Users\dhruv.tomar\OneDrive\Documents\Scanner\Test_Pullback.py" 
+2026/09/18 17:28:52 - Shell - ERROR: (stderr) error: uv trampoline failed to spawn Python child process
+2026/09/18 17:28:52 - Shell - ERROR: (stderr)   Caused by: entity not found (os error 2)
+2026/09/18 17:28:52 - Shell - ERROR: (stderr) 
+2026/09/18 17:28:52 - Shell - (stdout) 
+2026/09/18 17:28:52 - Shell - (stdout) C:\Users\dhruv.tomar\Documents\Scanner-F\hop>"C:\Users\dhruv.tomar\OneDrive\Documents\Scanner\.venv\Scripts\python.exe" "C:\Users\dhruv.tomar\OneDrive\Documents\Scanner\Test_Trend.py" 
+2026/09/18 17:28:52 - Shell - ERROR: (stderr) error: uv trampoline failed to spawn Python child process
+2026/09/18 17:28:52 - Shell - ERROR: (stderr)   Caused by: entity not found (os error 2)
+2026/09/18 17:28:52 - Shell - ERROR: (stderr) 
+2026/09/18 17:28:52 - Shell - (stdout) 
+2026/09/18 17:28:52 - Shell - (stdout) C:\Users\dhruv.tomar\Documents\Scanner-F\hop>"C:\Users\dhruv.tomar\OneDrive\Documents\Scanner\.venv\Scripts\python.exe" "C:\Users\dhruv.tomar\OneDrive\Documents\Scanner\Test_volume_Breakout.py" 
+2026/09/18 17:28:52 - Shell - ERROR: (stderr) error: uv trampoline failed to spawn Python child process
+2026/09/18 17:28:52 - Shell - ERROR: (stderr)   Caused by: entity not found (os error 2)
+2026/09/18 17:28:52 - Shell - ERROR: (stderr) 
+2026/09/18 17:28:52 - workflow - Finished action [Shell] (result=[false])
+2026/09/18 17:28:52 - workflow - Workflow execution finished

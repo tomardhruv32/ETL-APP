@@ -1,0 +1,16 @@
+{
+  "name" : "Upstox Instrument Json list",
+  "filename" : null,
+  "id" : "5a572c7a-5626-4128-bbca-84632097a176",
+  "parentId" : "a7ace486-e465-4fce-bc5b-66ecbcc41a7f",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1792393555791,
+  "executionStartDate" : 1792393555742,
+  "copyNr" : "0"
+}

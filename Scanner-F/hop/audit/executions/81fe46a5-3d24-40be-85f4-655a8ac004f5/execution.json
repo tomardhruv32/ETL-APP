@@ -1,0 +1,16 @@
+{
+  "name" : "Remove Duplicates",
+  "filename" : null,
+  "id" : "81fe46a5-3d24-40be-85f4-655a8ac004f5",
+  "parentId" : "d7f57cc9-7831-446b-9681-9664e8f3ffd1",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1789732092092,
+  "executionStartDate" : 1789732091848,
+  "copyNr" : "0"
+}

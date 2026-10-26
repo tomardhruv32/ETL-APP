@@ -1,0 +1,16 @@
+{
+  "name" : "Concat fields",
+  "filename" : null,
+  "id" : "072f27d1-5259-4ea0-95ab-d840cb4d4ab9",
+  "parentId" : "a7ace486-e465-4fce-bc5b-66ecbcc41a7f",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1792393555841,
+  "executionStartDate" : 1792393555742,
+  "copyNr" : "0"
+}

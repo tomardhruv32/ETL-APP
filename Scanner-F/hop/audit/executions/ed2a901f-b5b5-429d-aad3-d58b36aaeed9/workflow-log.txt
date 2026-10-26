@@ -1,0 +1,23 @@
+2026/09/18 16:08:25 - workflow - Start of workflow execution
+2026/09/18 16:08:25 - workflow - Starting action [Start]
+2026/09/18 16:08:25 - workflow - Finished action [Start] (result=[true])
+2026/09/18 16:08:25 - workflow - Starting action [ohlcv.hpl]
+2026/09/18 16:08:25 - ohlcv.hpl - ERROR: Unable to run workflow workflow. The ohlcv.hpl has an error. The pipeline path C:\Users\yoaks\OneDrive\Documents\Scanner\ohlcv.hpl is invalid, and will not run successfully.
+2026/09/18 16:08:25 - ohlcv.hpl - org.apache.hop.core.exception.HopXmlException: 
+2026/09/18 16:08:25 - ohlcv.hpl - The pipeline path C:\Users\yoaks\OneDrive\Documents\Scanner\ohlcv.hpl is invalid, and will not run successfully.
+2026/09/18 16:08:25 - ohlcv.hpl - 
+2026/09/18 16:08:25 - ohlcv.hpl - 	at org.apache.hop.pipeline.PipelineMeta.loadXml(PipelineMeta.java:1521)
+2026/09/18 16:08:25 - ohlcv.hpl - 	at org.apache.hop.pipeline.PipelineMeta.<init>(PipelineMeta.java:1509)
+2026/09/18 16:08:25 - ohlcv.hpl - 	at org.apache.hop.workflow.actions.pipeline.ActionPipeline.getPipelineMeta(ActionPipeline.java:638)
+2026/09/18 16:08:25 - ohlcv.hpl - 	at org.apache.hop.workflow.actions.pipeline.ActionPipeline.execute(ActionPipeline.java:347)
+2026/09/18 16:08:25 - ohlcv.hpl - 	at org.apache.hop.workflow.Workflow.executeFromStart(Workflow.java:814)
+2026/09/18 16:08:25 - ohlcv.hpl - 	at org.apache.hop.workflow.Workflow.executeFromStart(Workflow.java:987)
+2026/09/18 16:08:25 - ohlcv.hpl - 	at org.apache.hop.workflow.Workflow.executeFromStart(Workflow.java:506)
+2026/09/18 16:08:25 - ohlcv.hpl - 	at org.apache.hop.workflow.Workflow.startExecution(Workflow.java:315)
+2026/09/18 16:08:25 - ohlcv.hpl - 	at org.apache.hop.workflow.engines.local.LocalWorkflowEngine.startExecution(LocalWorkflowEngine.java:264)
+2026/09/18 16:08:25 - ohlcv.hpl - 	at org.apache.hop.run.HopRunBase.runWorkflow(HopRunBase.java:453)
+2026/09/18 16:08:25 - ohlcv.hpl - 	at org.apache.hop.run.HopRunBase.runWorkflow(HopRunBase.java:385)
+2026/09/18 16:08:25 - ohlcv.hpl - 	at org.apache.hop.run.HopRunBase.run(HopRunBase.java:210)
+2026/09/18 16:08:25 - ohlcv.hpl - 	at org.apache.hop.run.HopRun.main(HopRun.java:102)
+2026/09/18 16:08:25 - workflow - Finished action [ohlcv.hpl] (result=[false])
+2026/09/18 16:08:25 - workflow - Workflow execution finished

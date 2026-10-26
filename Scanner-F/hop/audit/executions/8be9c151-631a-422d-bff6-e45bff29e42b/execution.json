@@ -1,0 +1,16 @@
+{
+  "name" : "pullback_results.csv",
+  "filename" : null,
+  "id" : "8be9c151-631a-422d-bff6-e45bff29e42b",
+  "parentId" : "52cecf30-4f99-4688-8dcf-cc99d8d2f735",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1792400694312,
+  "executionStartDate" : 1792400694078,
+  "copyNr" : "0"
+}

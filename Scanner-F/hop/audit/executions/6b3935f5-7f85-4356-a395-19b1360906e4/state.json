@@ -1,0 +1,17 @@
+{
+  "executionType" : "Workflow",
+  "parentId" : null,
+  "id" : "6b3935f5-7f85-4356-a395-19b1360906e4",
+  "name" : "workflow",
+  "copyNr" : null,
+  "loggingText" : "2026/09/18 16:16:45 - workflow - Start of workflow execution\r\n2026/09/18 16:16:45 - workflow - Starting action [Start]\r\n2026/09/18 16:16:45 - workflow - Finished action [Start] (result=[true])\r\n2026/09/18 16:16:45 - workflow - Starting action [ohlcv.hpl]\r\n2026/09/18 16:16:45 - ohlcv.hpl - Using run configuration [local]\r\n2026/09/18 16:16:45 - ohlcv - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\r\n2026/09/18 16:16:45 - ohlcv - Execution started for pipeline [ohlcv]\r\n2026/09/18 16:16:46 - HTTP client.0 - Starting to run...\r\n2026/09/18 16:16:52 - Upstox Instrument Json list.0 - Finished processing (I=75783, O=0, R=0, W=75783, U=0, E=0)\r\n2026/09/18 16:16:52 - Instrument_key, name,segent, instrument_type.0 - Finished processing (I=0, O=0, R=75783, W=75783, U=0, E=0)\r\n2026/09/18 16:16:52 - EQ & NSE EQ.0 - Finished processing (I=0, O=0, R=75783, W=2639, U=0, E=0)\r\n2026/09/18 16:16:52 - Remove Duplicates.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)\r\n2026/09/18 16:16:52 - Get current date.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)\r\n2026/09/18 16:16:52 - Constant 1 and 365.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)\r\n2026/09/18 16:16:52 - Remove Time from date - yyyy-MM-dd.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)\r\n2026/09/18 16:16:52 - Yesterday date and year date.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)\r\n2026/09/18 16:16:52 - Remove Time from dates.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)\r\n2026/09/18 16:16:52 - Only show Instrument key, name,from and to date.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)\r\n2026/09/18 16:16:52 - Add constants.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)\r\n2026/09/18 16:16:52 - Concat fields.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)\r\n2026/09/18 16:16:52 - Replace in string.0 - Finished processing (I=0, O=0, R=2639, W=2639, U=0, E=0)\r\n2026/09/18 16:",
+  "lastLogLineNr" : 13260,
+  "metrics" : [ ],
+  "statusDescription" : "Finished (with errors)",
+  "updateTime" : 1789731074124,
+  "childIds" : [ "f422c897-8424-4bb4-97c5-39a348cbc477", "a1341964-fc49-4150-896d-077ab5621135", "90a777b0-e6e8-46ae-8750-177421f82b4a" ],
+  "details" : { },
+  "failed" : true,
+  "executionEndDate" : 1789731074123,
+  "containerId" : null
+}

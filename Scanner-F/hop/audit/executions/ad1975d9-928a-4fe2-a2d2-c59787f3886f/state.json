@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "89d64bf6-ac94-4f00-85b4-eb3c2f624283",
+  "id" : "ad1975d9-928a-4fe2-a2d2-c59787f3886f",
+  "name" : "EQ & NSE EQ",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Stopped",
+  "updateTime" : 1792393619309,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1792393596116,
+  "containerId" : "deb1a3c3-c5cc-4b5b-836d-b67fbeb1cf78"
+}

@@ -1,0 +1,37 @@
+2026/09/18 17:22:03 - supabase - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/09/18 17:22:03 - supabase - Execution started for pipeline [supabase]
+2026/09/18 17:22:04 - breakout.csv.0 - Opening file: file:///C:/Users/dhruv.tomar/OneDrive/Documents/Scanner/breakout_results.csv
+2026/09/18 17:22:04 - momentum_results.csv.0 - Opening file: file:///C:/Users/dhruv.tomar/OneDrive/Documents/Scanner/momentum_results.csv
+2026/09/18 17:22:04 - trend_results.csv.0 - Opening file: file:///C:/Users/dhruv.tomar/OneDrive/Documents/Scanner/trend_results.csv
+2026/09/18 17:22:04 - volume_breakout_results.csv.0 - Opening file: file:///C:/Users/dhruv.tomar/OneDrive/Documents/Scanner/volume_breakout_results.csv
+2026/09/18 17:22:04 - momentum_results.csv.0 - Finished processing (I=100, O=0, R=0, W=99, U=1, E=0)
+2026/09/18 17:22:04 - Calculator 2.0 - Finished processing (I=0, O=0, R=99, W=99, U=0, E=0)
+2026/09/18 17:22:04 - breakout.csv.0 - Finished processing (I=29, O=0, R=0, W=28, U=1, E=0)
+2026/09/18 17:22:04 - Get system info 2.0 - Finished processing (I=0, O=0, R=99, W=99, U=0, E=0)
+2026/09/18 17:22:04 - Calculator.0 - Finished processing (I=0, O=0, R=28, W=28, U=0, E=0)
+2026/09/18 17:22:04 - Get system info.0 - Finished processing (I=0, O=0, R=28, W=28, U=0, E=0)
+2026/09/18 17:22:04 - Select values 2.0 - Finished processing (I=0, O=0, R=99, W=99, U=0, E=0)
+2026/09/18 17:22:04 - Select values.0 - Finished processing (I=0, O=0, R=28, W=28, U=0, E=0)
+2026/09/18 17:22:04 - PostgreSQL bulk loader.0 - ERROR: Error in transform
+2026/09/18 17:22:04 - PostgreSQL bulk loader.0 - java.lang.NullPointerException: Cannot invoke "org.apache.hop.core.database.DatabaseMeta.getName()" because "this.databaseMeta" is null
+2026/09/18 17:22:04 - PostgreSQL bulk loader.0 - 	at org.apache.hop.core.database.Database.getObjectName(Database.java:4998)
+2026/09/18 17:22:04 - PostgreSQL bulk loader.0 - 	at org.apache.hop.core.logging.LoggingObject.grabLoggingObjectInformation(LoggingObject.java:144)
+2026/09/18 17:22:04 - PostgreSQL bulk loader.0 - 	at org.apache.hop.core.logging.LoggingObject.<init>(LoggingObject.java:44)
+2026/09/18 17:22:04 - PostgreSQL bulk loader.0 - 	at org.apache.hop.core.logging.LoggingRegistry.registerLoggingSource(LoggingRegistry.java:65)
+2026/09/18 17:22:04 - PostgreSQL bulk loader.0 - 	at org.apache.hop.core.logging.LogChannel.<init>(LogChannel.java:88)
+2026/09/18 17:22:04 - PostgreSQL bulk loader.0 - 	at org.apache.hop.core.logging.LogChannel.<init>(LogChannel.java:66)
+2026/09/18 17:22:04 - PostgreSQL bulk loader.0 - 	at org.apache.hop.core.database.Database.<init>(Database.java:216)
+2026/09/18 17:22:04 - PostgreSQL bulk loader.0 - 	at org.apache.hop.pipeline.transforms.pgbulkloader.PGBulkLoader.getDatabase(PGBulkLoader.java:183)
+2026/09/18 17:22:04 - PostgreSQL bulk loader.0 - 	at org.apache.hop.pipeline.transforms.pgbulkloader.PGBulkLoader.doCopy(PGBulkLoader.java:153)
+2026/09/18 17:22:04 - PostgreSQL bulk loader.0 - 	at org.apache.hop.pipeline.transforms.pgbulkloader.PGBulkLoader.processRow(PGBulkLoader.java:250)
+2026/09/18 17:22:04 - PostgreSQL bulk loader.0 - 	at org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)
+2026/09/18 17:22:04 - PostgreSQL bulk loader.0 - 	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026/09/18 17:22:04 - trend_results.csv.0 - Finished processing (I=194, O=0, R=0, W=193, U=1, E=0)
+2026/09/18 17:22:04 - PostgreSQL bulk loader.0 - Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2026/09/18 17:22:04 - Calculator 2 2 2.0 - Finished processing (I=0, O=0, R=193, W=193, U=0, E=0)
+2026/09/18 17:22:04 - Get system info 2 2 2.0 - Finished processing (I=0, O=0, R=93, W=93, U=0, E=0)
+2026/09/18 17:22:04 - Select values 2 2 2.0 - Finished processing (I=0, O=0, R=19, W=19, U=0, E=0)
+2026/09/18 17:22:04 - volume_breakout_results.csv.0 - Finished processing (I=1, O=0, R=0, W=0, U=1, E=0)
+2026/09/18 17:22:04 - supabase - Pipeline detected one or more transforms with errors.
+2026/09/18 17:22:04 - supabase - Pipeline is killing the other transforms!
+2026/09/18 17:22:04 - supabase - Pipeline duration : 0.99 seconds [  0.990" ]

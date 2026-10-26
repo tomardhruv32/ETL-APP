@@ -1,0 +1,16 @@
+{
+  "name" : "Constant 1 and 365",
+  "filename" : null,
+  "id" : "a13b0257-42ec-4ba7-b36b-4c986d6fa2e5",
+  "parentId" : "8b0b87a0-4b6e-4f80-9038-1fd26ea3f268",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1792393391803,
+  "executionStartDate" : 1792393391537,
+  "copyNr" : "0"
+}

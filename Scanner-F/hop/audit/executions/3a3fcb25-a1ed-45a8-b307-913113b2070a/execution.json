@@ -1,0 +1,16 @@
+{
+  "name" : "Shell",
+  "filename" : null,
+  "id" : "3a3fcb25-a1ed-45a8-b307-913113b2070a",
+  "parentId" : "882fd3ed-734f-41e5-a757-d42dfebc21a9",
+  "executionType" : "Action",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1789790830996,
+  "executionStartDate" : 1789790830996,
+  "copyNr" : null
+}

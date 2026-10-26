@@ -1,0 +1,16 @@
+{
+  "name" : "volume_breakout_results.csv",
+  "filename" : null,
+  "id" : "501b611b-c529-4ea7-ba66-c0b2e9fb74be",
+  "parentId" : "52cecf30-4f99-4688-8dcf-cc99d8d2f735",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1792400694351,
+  "executionStartDate" : 1792400694078,
+  "copyNr" : "0"
+}

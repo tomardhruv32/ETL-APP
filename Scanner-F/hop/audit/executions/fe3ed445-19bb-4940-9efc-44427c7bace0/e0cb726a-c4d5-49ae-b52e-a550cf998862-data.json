@@ -1,0 +1,37 @@
+{
+  "executionType" : "Action",
+  "dataSetMeta" : {
+    "setKey" : "e0cb726a-c4d5-49ae-b52e-a550cf998862",
+    "logChannelId" : "e0cb726a-c4d5-49ae-b52e-a550cf998862",
+    "name" : "supabase.hpl",
+    "fieldName" : null,
+    "sampleDescription" : null,
+    "copyNr" : "3",
+    "description" : "action"
+  },
+  "finished" : true,
+  "collectionDate" : 1789794627446,
+  "parentId" : "fe3ed445-19bb-4940-9efc-44427c7bace0",
+  "ownerId" : "e0cb726a-c4d5-49ae-b52e-a550cf998862",
+  "setMetaData" : {
+    "result" : {
+      "setKey" : "result",
+      "logChannelId" : "e0cb726a-c4d5-49ae-b52e-a550cf998862",
+      "name" : "supabase.hpl",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "3",
+      "description" : "Result details of action"
+    },
+    "files" : {
+      "setKey" : "files",
+      "logChannelId" : "e0cb726a-c4d5-49ae-b52e-a550cf998862",
+      "name" : "supabase.hpl",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "3",
+      "description" : "Result files of action"
+    }
+  },
+  "rowsBinaryGzipBase64Encoded" : "H4sIAAAAAAAA/7WRz0vDMBzFU2frLoogeBN28OgavfYiOnUXb7XnkbXfudI0KflR3F+v/a4rFizFDhro4/Hy+H6ShhByQjwF2nJD0NcfrkkGu++OVW05Psodyu2hTVwQ8yh0CGkFqyiszPmTThldMB5bYxhpIdyScQsjQSYoZ/XVHvfdDeMa0HmglFQarfOAOtVGFgUk7Z67STnow6DmxFMMBcvHOnTDOTW7YmyGJ1X6mYqRKB7KM/6ugFK6CGikQWmabJUtfSNzpuiLjG0OwmgaxkwIUPM3ahSIZFW/mvZjXe5fcQnVLuPor/40/HvMXwejcomJzfto112lY4GF5XzN4qwX2FWqge+DgaXkVbZaK2CZtKaPe9PTPfa+/+FeNKVfUDAYJLc8LrumX37Al5nhvFmFKKz5AfjnAGfwBAAA"
+}

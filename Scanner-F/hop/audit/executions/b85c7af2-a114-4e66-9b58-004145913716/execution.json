@@ -1,0 +1,16 @@
+{
+  "name" : "breakout.csv",
+  "filename" : null,
+  "id" : "b85c7af2-a114-4e66-9b58-004145913716",
+  "parentId" : "6f3468ab-6fc7-43b6-bb1d-7dc0434b9565",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1789732324096,
+  "executionStartDate" : 1789732323917,
+  "copyNr" : "0"
+}

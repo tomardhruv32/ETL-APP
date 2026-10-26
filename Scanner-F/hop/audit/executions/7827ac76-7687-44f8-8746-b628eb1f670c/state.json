@@ -1,0 +1,17 @@
+{
+  "executionType" : "Workflow",
+  "parentId" : null,
+  "id" : "7827ac76-7687-44f8-8746-b628eb1f670c",
+  "name" : "workflow",
+  "copyNr" : null,
+  "loggingText" : "2026/09/19 09:41:38 - workflow - Start of workflow execution\r\n2026/09/19 09:41:38 - workflow - Starting action [Start]\r\n2026/09/19 09:41:38 - workflow - Finished action [Start] (result=[true])\r\n2026/09/19 09:41:38 - workflow - Starting action [Shell]\r\n2026/09/19 09:41:38 - Shell - Running on platform : Windows 11\r\n2026/09/19 09:41:38 - Shell - Executing command : cmd.exe /C \"C:\\Users\\DHRUV~1.TOM\\AppData\\Local\\Temp\\hop_dbbebf68-bbe8-4724-bf64-4edd5256b6efshell.bat\"\r\n2026/09/19 09:41:38 - Shell - (stdout) \r\n2026/09/19 09:41:38 - Shell - (stdout) C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\hop>\"C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\.venv\\Scripts\\python.exe\" \"C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\Test_Breakout.py\" \r\n2026/09/19 09:41:58 - Shell - ERROR: (stderr) 2026-09-19 09:41:58,459 | INFO | ======================================================================\r\n2026/09/19 09:41:58 - Shell - ERROR: (stderr) 2026-09-19 09:41:58,459 | INFO | Loading historical data\r\n2026/09/19 09:41:58 - Shell - ERROR: (stderr) 2026-09-19 09:41:58,459 | INFO | ======================================================================\r\n2026/09/19 09:41:58 - Shell - ERROR: (stderr) 2026-09-19 09:41:58,459 | INFO | Historical data file: C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\ohlcv.csv\r\n2026/09/19 09:41:59 - Shell - ERROR: (stderr) 2026-09-19 09:41:59,220 | INFO | CSV loaded successfully. Rows: 581743\r\n2026/09/19 09:41:59 - Shell - ERROR: (stderr) 2026-09-19 09:41:59,220 | INFO | CSV columns: ['instrument_key', 'name', 'timestamp', 'open', 'high', 'low', 'close', 'volume', 'open_interest', 'Till (Date)', 'CreationDate', 'Date']\r\n2026/09/19 09:41:59 - Shell - ERROR: (stderr) 2026-09-19 09:41:59,518 | WARNING | Removed 1 rows with missing/invalid required values\r\n2026/09/19 09:41:59 - Shell - ERROR: (stderr) 2026-09-19 09:41:59,737 | INFO | Valid rows: 581742\r\n2026/09/19 09:41:59 - Shell - ERROR: (stderr) 2026-09-19 09:41:59,738 | INFO | Unique instruments: 2638\r\n2026/09/19 09:41:59 - Shell ",
+  "lastLogLineNr" : 876,
+  "metrics" : [ ],
+  "statusDescription" : "Stopped",
+  "updateTime" : 1789791271941,
+  "childIds" : [ "7a2f29b8-138d-4f24-ac70-d4d02817c086", "2333821a-e28c-4f4d-97fc-dfce9c4fce9a" ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1789791271940,
+  "containerId" : null
+}

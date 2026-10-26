@@ -1,0 +1,16 @@
+{
+  "name" : "Get system info 2",
+  "filename" : null,
+  "id" : "ad3b91a4-2010-4a5c-9159-07846731b86c",
+  "parentId" : "44e589d5-e82e-423b-9dfe-6445110e7d4e",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1789795057277,
+  "executionStartDate" : 1789795057165,
+  "copyNr" : "0"
+}

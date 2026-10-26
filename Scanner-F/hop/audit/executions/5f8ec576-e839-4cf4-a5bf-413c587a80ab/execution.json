@@ -1,0 +1,16 @@
+{
+  "name" : "Replace in string",
+  "filename" : null,
+  "id" : "5f8ec576-e839-4cf4-a5bf-413c587a80ab",
+  "parentId" : "a7ace486-e465-4fce-bc5b-66ecbcc41a7f",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1792393555845,
+  "executionStartDate" : 1792393555742,
+  "copyNr" : "0"
+}

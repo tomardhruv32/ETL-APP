@@ -1,0 +1,16 @@
+{
+  "name" : "Add constants",
+  "filename" : null,
+  "id" : "e7aa7cd1-d10d-4239-a7a2-885a1de48103",
+  "parentId" : "89d64bf6-ac94-4f00-85b4-eb3c2f624283",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1792393592768,
+  "executionStartDate" : 1792393592684,
+  "copyNr" : "0"
+}

@@ -1,0 +1,16 @@
+{
+  "name" : "Instrument_key, name,segent, instrument_type",
+  "filename" : null,
+  "id" : "5b4a148d-72f1-4de9-bb26-e64d524e46d9",
+  "parentId" : "d3b03750-2be3-473c-8715-613453934e5c",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1789728405979,
+  "executionStartDate" : 1789728405550,
+  "copyNr" : "0"
+}

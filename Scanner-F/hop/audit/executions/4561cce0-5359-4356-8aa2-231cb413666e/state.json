@@ -1,0 +1,17 @@
+{
+  "executionType" : "Workflow",
+  "parentId" : null,
+  "id" : "4561cce0-5359-4356-8aa2-231cb413666e",
+  "name" : "workflow",
+  "copyNr" : null,
+  "loggingText" : "2026/09/18 17:27:15 - workflow - Start of workflow execution\r\n2026/09/18 17:27:15 - workflow - Starting action [Start]\r\n2026/09/18 17:27:15 - workflow - Finished action [Start] (result=[true])\r\n2026/09/18 17:27:15 - workflow - Starting action [Shell]\r\n2026/09/18 17:27:15 - Shell - Running on platform : Windows 11\r\n2026/09/18 17:27:15 - Shell - Executing command : cmd.exe /C \"C:\\Users\\DHRUV~1.TOM\\AppData\\Local\\Temp\\hop_c22efd06-472b-47e8-b7f4-4aeee5bcd10bshell.bat\"\r\n2026/09/18 17:27:15 - Shell - (stdout) \r\n2026/09/18 17:27:15 - Shell - (stdout) C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\hop>Set-Location \"C:\\Users\\dhruv.tomar\\OneDrive\\Documents\\Scanner\" \r\n2026/09/18 17:27:15 - Shell - ERROR: (stderr) 'Set-Location' is not recognized as an internal or external command,\r\n2026/09/18 17:27:15 - Shell - ERROR: (stderr) operable program or batch file.\r\n2026/09/18 17:27:15 - Shell - (stdout) \r\n2026/09/18 17:27:15 - Shell - (stdout) C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\hop>python \"Test_Breakout.py\" \r\n2026/09/18 17:27:16 - Shell - ERROR: (stderr) python: can't open file 'C:\\\\Users\\\\dhruv.tomar\\\\Documents\\\\Scanner-F\\\\hop\\\\Test_Breakout.py': [Errno 2] No such file or directory\r\n2026/09/18 17:27:16 - Shell - (stdout) \r\n2026/09/18 17:27:16 - Shell - (stdout) C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\hop>python \"Test_momentum.py\" \r\n2026/09/18 17:27:16 - Shell - ERROR: (stderr) python: can't open file 'C:\\\\Users\\\\dhruv.tomar\\\\Documents\\\\Scanner-F\\\\hop\\\\Test_momentum.py': [Errno 2] No such file or directory\r\n2026/09/18 17:27:16 - Shell - (stdout) \r\n2026/09/18 17:27:16 - Shell - (stdout) C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\hop>python \"Test_Pullback.py\" \r\n2026/09/18 17:27:16 - Shell - ERROR: (stderr) python: can't open file 'C:\\\\Users\\\\dhruv.tomar\\\\Documents\\\\Scanner-F\\\\hop\\\\Test_Pullback.py': [Errno 2] No such file or directory\r\n2026/09/18 17:27:16 - Shell - (stdout) \r\n2026/09/18 17:27:16 - Shell - (stdout) C:\\Users\\dhruv.tomar\\Documents\\Scanner-F\\hop>python \"Test_Trend.py\" \r\n20",
+  "lastLogLineNr" : 179,
+  "metrics" : [ ],
+  "statusDescription" : "Finished (with errors)",
+  "updateTime" : 1789732636921,
+  "childIds" : [ "ebe88a6f-9cbf-4854-a8d0-21c0184fc96d", "cd2ca73d-2426-4cf7-a039-731cb120be06" ],
+  "details" : { },
+  "failed" : true,
+  "executionEndDate" : 1789732636895,
+  "containerId" : null
+}

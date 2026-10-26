@@ -1,0 +1,16 @@
+{
+  "name" : "Text file output",
+  "filename" : null,
+  "id" : "5d0fe5e3-c66d-4ea3-941e-f5f3ce13c121",
+  "parentId" : "c2c19538-78af-4a5a-b24e-49e4c82423c5",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1789791816648,
+  "executionStartDate" : 1789791816358,
+  "copyNr" : "0"
+}

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "142964889381",
+    "project_id": "rimuru-6h98cz",
+    "storage_bucket": "rimuru-6h98cz.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142964889381:android:9b72811114e566aa0feccc",
+        "android_client_info": {
+          "package_name": "com.ai.scanner.strix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142964889381-m2cm75hk4cnljobdhv9ha66jpsdvvs18.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ai.scanner.strix",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "142964889381-og1dv2jssjagpnurd99upklgetrkjcii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOwCq2Ol2hgz3N0PCJ6hzTLbOcA_1VCG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142964889381-og1dv2jssjagpnurd99upklgetrkjcii.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "142964889381-b7bj0uorcfjmnvgmn554jp1f3daai47m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ai.scanner.strix"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+{
+  "executionType" : "Workflow",
+  "parentId" : null,
+  "id" : "5f21e3d1-ce4d-4d9c-951d-0328095d39ab",
+  "name" : "workflow",
+  "copyNr" : null,
+  "loggingText" : "2026/09/18 15:56:45 - workflow - Start of workflow execution\r\n2026/09/18 15:56:45 - workflow - Starting action [Start]\r\n2026/09/18 15:56:45 - workflow - Finished action [Start] (result=[true])\r\n2026/09/18 15:56:45 - workflow - Starting action [ohlcv.hpl]\r\n2026/09/18 15:56:45 - ohlcv.hpl - ERROR: Unable to run workflow workflow. The ohlcv.hpl has an error. The pipeline path C:\\Users\\yoaks\\OneDrive\\Documents\\Scanner\\ohlcv.hpl is invalid, and will not run successfully.\r\n2026/09/18 15:56:45 - ohlcv.hpl - org.apache.hop.core.exception.HopXmlException: \r\n2026/09/18 15:56:45 - ohlcv.hpl - The pipeline path C:\\Users\\yoaks\\OneDrive\\Documents\\Scanner\\ohlcv.hpl is invalid, and will not run successfully.\r\n2026/09/18 15:56:45 - ohlcv.hpl - \r\n2026/09/18 15:56:45 - ohlcv.hpl - \tat org.apache.hop.pipeline.PipelineMeta.loadXml(PipelineMeta.java:1521)\r\n2026/09/18 15:56:45 - ohlcv.hpl - \tat org.apache.hop.pipeline.PipelineMeta.<init>(PipelineMeta.java:1509)\r\n2026/09/18 15:56:45 - ohlcv.hpl - \tat org.apache.hop.workflow.actions.pipeline.ActionPipeline.getPipelineMeta(ActionPipeline.java:638)\r\n2026/09/18 15:56:45 - ohlcv.hpl - \tat org.apache.hop.workflow.actions.pipeline.ActionPipeline.execute(ActionPipeline.java:347)\r\n2026/09/18 15:56:45 - ohlcv.hpl - \tat org.apache.hop.workflow.Workflow.executeFromStart(Workflow.java:814)\r\n2026/09/18 15:56:45 - ohlcv.hpl - \tat org.apache.hop.workflow.Workflow.executeFromStart(Workflow.java:987)\r\n2026/09/18 15:56:45 - ohlcv.hpl - \tat org.apache.hop.workflow.Workflow.executeFromStart(Workflow.java:506)\r\n2026/09/18 15:56:45 - ohlcv.hpl - \tat org.apache.hop.workflow.Workflow.startExecution(Workflow.java:315)\r\n2026/09/18 15:56:45 - ohlcv.hpl - \tat org.apache.hop.workflow.engines.local.LocalWorkflowEngine.startExecution(LocalWorkflowEngine.java:264)\r\n2026/09/18 15:56:45 - ohlcv.hpl - \tat org.apache.hop.run.HopRunBase.runWorkflow(HopRunBase.java:453)\r\n2026/09/18 15:56:45 - ohlcv.hpl - \tat org.apache.hop.run.HopRunBase.runWorkflow(HopRunBase.java:385)\r\n2026/0",
+  "lastLogLineNr" : 11,
+  "metrics" : [ ],
+  "statusDescription" : "Finished (with errors)",
+  "updateTime" : 1789727205585,
+  "childIds" : [ "b3668271-9d29-4898-bafe-a3446905f9d5", "e26b1386-07d9-4595-a01d-b461112b8c2a" ],
+  "details" : { },
+  "failed" : true,
+  "executionEndDate" : 1789727205583,
+  "containerId" : null
+}
